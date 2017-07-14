@@ -1,0 +1,36 @@
+
+#Update from the EAS EAC-CPF subteam
+
+1. Purpose/scope of team responsibilities (as you and your team have envisioned it)
+The sub team aims to collect and discuss open and outstanding EAC-CPF issues and to decide about quick fixes on the one hand. On the other hand the team should discuss advantages and disadvantages of the inclusion of EAG in EAC-CPF.
+In July 2017 there should be an overview about the EAC-CPF situation and a decision how to go on: update or revision of the standard.
+
+2. Team membership
+Team members: Aaron Rubinstein, Anila Anjeli, Florence Clavaud, Wim van Dongen 
+Liaison: Katherine Wisser
+ex officio: Gerhard Müller, Stefano Vitali (only for detailed questions)
+
+3. Current status, update from December meeting
+Since February 2017 (last report) we listed all issues in GitHub. There are 40 issues:
+- 6 issues on principle discussion, like how to handle dates, names, identifiers
+- 7 issues on EAD 3 Reconciliation, like value lists, language code, relations part in general
+- 18 issues on specific elements, like <element> should be repeatable
+- 3 issues on attributes, like @attribute shouldn't have regex pattern
+- 9 issues on documentation, like adjust tag library or provide best practice or tools on the homepage
+- 1 bug (typo)
+
+4. Initiatives underway
+All issues are open for discussion since March/April 2017, reminders to comment were sent out to the group in April and May 2017 with deadline End of June. 
+So far, we got comments from Karin in GitHub and general comments from Gerhard Müller directly to Silke. Only 4 of 7 team members are team members in GitHub.
+No further virtual meetings since autumn 2016.
+
+5. Forthcoming projects/initiatives desired, priorities
+Considering the number of issues and the two big topics "EAD 3 Reconciliation" and "Principle Discussion", also taking G. Müllers comments in account, I suggest the standards revision. 
+We need a decision of the TS-EAS about this in Portland. 
+To work on a revision, we need people who have
+a) time to work on this
+b) experience in using the standard
+c) access to GitHub (unless there is another tool recommended by TS-EAS)
+d) desirable experience in standard revision ;-)
+
+We also need a decision about EAG inclusion during the next year.

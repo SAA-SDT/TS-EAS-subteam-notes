@@ -1,0 +1,43 @@
+Proposal for a redesign of EAC-CPF by Gerhard Müller
+
+Based on our own experiences with EAC, I speak up for a complete redesign of the schema. Some ideas came after I glanced through the many tickets at GitHub, and by carefully considering implications of both RiC and an open approach to access and use data by a broader community.
+
+(1) First of all, EAC-CPF should be renamed to EAC - Encoded Archival Context. We should supersede the limitation on agents, and thus underscore that EAC is applicable to all kinds of entities related with records, record components, and record sets. This should only exclude the entity types a) holding organizations (ISO 15511, EAG) and b) date (ISO 8601, EAD).
+
+(2) It is proposed that encoding entities with EAC should be based on the general rule: one entity = one record = one eac-file. Multiple entities in a single XML-document should be avoided, and therefore, the element multipleIdenties should be removed from the schema.
+
+(3) We should avoid strictly to derive requirements on the data model by intermingle various use cases based on single application/service-profiles. We should solely focus on data exchange (s. tickets "Assertion Description #43). For this purpose, atomized information e.g. about assertions of contributors is not necessary. In case it is, service provider can define a specific API for providing additional data linked with an entity. The schema should be understandable by a broad community from diverse communities (libraries, archives, museums, research, etc.). Therefore, the schema needs to be comprehensible and as lean as possible.
+
+(4) It is proposed to subdivide EAC into three sections:
+- control
+- description (former cpfDescription)
+- events (former resourceRelations, functionRelations)
+
+The control section should be identical with the control element in EAD3. The description section should focus on the data supporting the identification of an entity and thus on its properties (places, functions, dates, families, acquaintance and other persons and even corporate bodies a person has qualifiable relations with). The properties of an entity differ from the events an entity is part of. Events are recorded in archival materials which are e.g. encoded with EAD. The historical empirical data should be transformed into a GraphML based data model to comply and link with international standards from a broader research community.
+
+(4) The control section should be aligned with EAD3, but limited to
+- recordid
+- otherrecordid
+- maintenancestatus
+- maintenanceagency
+- maintenancehistory
+- publicationstatus
+- languagedeclaration
+- conventiondeclaration
+
+The element sources should be a subelement of description. The local* elements are confusing for all relevant data can be encoded sustainably with the remaining elements. Any modifications on a record should be trackable between diverse applications/users (data provenance), but not necessarily the kind of data which was manipulated as requested by #43.
+
+(5) The description section should focus on the properties and make full use of controlled vocabularies. It should also be carefully considered to make use of standardized vocabularies to encode relations respectively to encode the type of a property in context of an entity. This section should be thus subdivided by the following elements:
+- entityType (entityType, authorized form)
+- entityName (alternative names)
+- entityCharacteristics (properties like sex (person), geo coordinates (places), etc.)
+- entityRelations (date, persons, corporateBodies, families, occupations, functions, mandates, activities)
+- entityDescription (biographical/historical descriptive information, notes, sources)
+
+(6) Archival materials witness (historic) events: the letter from A to B, the files of M about A, the writing of a manuscript of A and C, the picture displaying A, C, and D, the reporter D writing about place Z, etc. The network analysis is a young, but well established research methodology and theory. Therefore, EAC should make use of the full potential of existing standards, here: GraphML to encode empirical relations (event) and to link these with the archival records persistently (source). In addition to that, use normalized vocabularies to describe the relations (correspondence, co-author, subject, etc.).
+
+GraphML schema and documentation: http://graphml.graphdrawing.org/
+
+As a result, the source section could be also used to list all types of resources of or about an entity, while the event part (GraphML) can encode the relations without the loss of detail information by aggregating. So far, with cpfRelations, it is not possible to encode repeating relations of the same persons including place and time. We thus lose too important information for research purposes.
+
+Finally, redesigning the schema also supports the clarification of the use of elements needed . The use of controlled vocabularies, of dates (fromDate, toDate, etc.), etc. can be clarified. In addition to that the schema design itself could do with a redesign (validation). Due to the fact, that EAC-CPF is currently on its way to become implemented, it is this a good moment to work on this carefully.

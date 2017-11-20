@@ -6,6 +6,7 @@ This includes fixing bugs in EAD3, considering and implementing requests from th
 
 ## Team membership 2017-2018:
 - Wim van Dongen
+- Alexander Duryee
 - Noah Huffman, team leader
 - Silke Jagodzinski
 - Bill Stockting

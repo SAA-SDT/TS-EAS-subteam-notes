@@ -17,19 +17,57 @@
   documentation on the use of the standard, see the EAC-CPF Tag Library
   (http://eac.staatsbibliothek-berlin.de/schemata-and-tag-library/).
   
+  Lead schema developer: Mark Custer
+  
   **********
   RELEASE NOTES: The current release of the EAC-CPF is version 2010. 
-  ********** 
   
+  Changes in Version 2010_revised:
+  
+  1. The @accuracy attribute was corrected for the tyop (@accuarcy).
+           See https://github.com/SAA-SDT/eac-cpf-schema/issues/1
+           (bug fix)
+
+  2. The elements languageDeclaration, agencyName, eventDescription and sourceEntry are now repeatable.
+          See https://github.com/SAA-SDT/eac-cpf-schema/issues/10
+              https://github.com/SAA-SDT/eac-cpf-schema/issues/11
+              https://github.com/SAA-SDT/eac-cpf-schema/issues/12
+              https://github.com/SAA-SDT/eac-cpf-schema/issues/13
+              
+  3. The placeEntry element is now repeatable within each of the relation elements.
+           See https:https://github.com/SAA-SDT/eac-cpf-schema/issues/17
+           
+  4. The new element rightsdeclaration has been added to the control section.
+           See https://github.com/SAA-SDT/eac-cpf-schema/issues/46
+           (new element)
+  
+  5. The data type for the attributes @otherAgencyCode and @preferredForm has been changed from xs:nmtoken to xs:token.
+          See https://github.com/SAA-SDT/eac-cpf-schema/issues/16
+              https://github.com/SAA-SDT/eac-cpf-schema/issues/19
+              
+  6. The @localType attribute has been added to the elements fromDate and toDate.
+          See https://github.com/SAA-SDT/eac-cpf-schema/issues/31
+  
+  7. The maximum values for the attributes @standardDate and @standardDateTime has been removed, years greater than 2999 are now possible.
+          See https://github.com/SAA-SDT/eac-cpf-schema/issues/33
+          
+  8. New value 'unknown' is now available for @eventType and @agentType attributes.
+          See https://github.com/SAA-SDT/eac-cpf-schema/issues/47
+              https://github.com/SAA-SDT/eac-cpf-schema/issues/48
+             
+  9. New content is now available for following elements:
+          'published' for pucblicationStatus element
+          'deletedMerged' for maintenanceStatus element
+          See https://github.com/SAA-SDT/eac-cpf-schema/issues/49
+              https://github.com/SAA-SDT/eac-cpf-schema/issues/50
+  
+
   **********
   Comments, questions, and suggestions should be sent to Katherine Wisser, Chair of
   the TS-EAS (katherine.wisser@simmons.edu)
   
   with subject line: Schema Comment
   **********
-  
-  EACWG MEMBERS:
-  
-  
+   
   
 -->

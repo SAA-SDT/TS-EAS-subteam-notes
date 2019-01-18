@@ -2,7 +2,7 @@
 
 ## August - December
 - Open period for community to submit feature requests and bug reports for consideration in the next annual release.
-- Submissions should follow Github Issue template and include justification for how the change will benefit the standard more broadly.
+- Submissions should follow [Github Issue template](https://github.com/SAA-SDT/EAD3/issues/new) and include justification for how the change will benefit the standard more broadly.
 - TS-EAS will review and evaluate requests as they are received, seek additional information when necessary, and conduct discussion of requests in Github Issues.
 - Where necessary, TS-EAS may seek broader community input on particular change requests via the EAD listserv and other outlets.
 
@@ -26,7 +26,7 @@
 - TS-EAS will run a ~6 week comment period to solicit feedback on the changes that are included in the RC.
 - Comments should be documented in Github issues and made visible to community.
 - TS-EAS will make any minor changes to the schema based on testing and feedback.
-- TS-EAS will update tag libraries to reflect any changes to the schema
+- TS-EAS will [update tag libraries](../blob/master/UPDATING.md) to reflect any changes to the schema
 
 ## July - August
 - TS-EAS will finalize changes based on comments and testing and issue a new minor release (e.g. EAD3 v1.2.0). Target dates of annual release should coincide with SAA annual conference where possible.

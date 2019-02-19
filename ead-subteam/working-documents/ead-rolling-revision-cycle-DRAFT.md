@@ -1,7 +1,7 @@
-# Timeline for Annual EAD Revision Cycle - DRAFT
+# Timeline for Annual EAD Revision Cycle for Minor Revisions - DRAFT
 
 ## August - December
-- Open period for community and TS-EAS to discuss feature requests bug reports submitted for consideration in the next annual release.
+- Open period for community and TS-EAS to discuss feature requests or other change requests submitted for consideration in the next annual release.
 - Submissions should follow [Github Issue template](https://github.com/SAA-SDT/EAD3/issues/new) and include justification for how the change will benefit the standard more broadly.
 - TS-EAS will review and evaluate requests as they are received, seek additional information when necessary, and conduct discussion of requests in Github Issues
 - Where necessary, TS-EAS may seek broader community input on particular change requests via the EAD listserv and other outlets.

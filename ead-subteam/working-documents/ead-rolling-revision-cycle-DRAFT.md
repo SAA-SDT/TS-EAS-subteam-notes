@@ -1,4 +1,4 @@
-# Timeline for Annual EAD Revision Cycle for Minor Revisions - DRAFT
+# Annual Calendar for Minor Revisions to EAD - DRAFT
 
 ## August - December
 - Open period for community and TS-EAS to discuss feature requests or other change requests submitted for consideration in the next annual release.
@@ -42,3 +42,5 @@
 **Minor bug fixes may be reported / implemented outside of this review cycle.
 
 **For major revisions to EAD that would have significant impacts on compatibility with the existing schema, TS-EAD would conduct more extensive community review and seek approval from Standards Committee and SAA Council. TS-EAS may choose to postpone the annual minor revision cycle if a major revision is planned or underway
+
+**Minor revisions would follow these release numbering conventions: EAD3 v1.1.0 (new feature release), EAD3 v1.1.1 (bugfix release), EAD3 v1.1.3 (bugfix release), EAD3 v1.2.0 (new feature release), etc.

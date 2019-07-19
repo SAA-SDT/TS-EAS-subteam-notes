@@ -1,4 +1,4 @@
-# Annual Calendar for Managing Minor Revisions to EAD - DRAFT
+# Proposed Annual Calendar for Managing Minor Revisions to EAD
 
 ## August - December
 - Open period for community and TS-EAS to discuss feature requests or other change requests submitted for consideration in the next annual release.

@@ -3,3 +3,4 @@
 Links to documents:
 * <https://github.com/SAA-SDT/SharedSchema>
 * <https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/committee-updates/update_2019-07-19.md>
+* <https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/schemas-subteam/committee-updates/update-2019-07-24.md>

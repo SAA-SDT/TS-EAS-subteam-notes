@@ -10,17 +10,31 @@ US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 87
 Meeting ID: 109 550 628  
 International numbers available: https://zoom.us/u/em7KBSS8T
 
-## Agenda (proposal)
+## Minutes
 
 
-1. Organisationl Matters
-- Workflow virtual meetings  
-- GitHub documents  
-2. face-to-face meeting wrap-up  
-- minutes/notes  
-- rework papers on topics  
+1. Organisationl Matters  
+ a) Workflow virtual meetings  
+- Virtual meeting are going to keep a distinct topic to discuss, in most cases open issues.  A team member will prepare the topic for the team, i.e.:  
+  + introduction,  
+  + proposal for solution, if available,  
+  + examples, if needed  
+  
+  
+  b) GitHub documents  
+- EAC-CPF documents in GitHub were cleared up and new structured:    
+  + [Meeting minutes](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/meeting-minutes) are structured by year and contains agenda and minutes of face-to-face and virtual meetings since 2017.
+  + [Committee updates](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/committee-updates) are EAC-CPF team reports for TS-EAS meetings.
+  + [Working documents](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/working-documents) contains texts for [Outreach](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/working-documents/outreach), as call for comments, homepage updates etc. and papers on [Topics](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/working-documents/topics).
+2. face-to-face meeting wrap-up   
+- Notes from Austin meeting are still under construction. Kathy and Ailie sent their notes to Silke, who creates a comprehensive document and GitHub issues accordingly.
+- Notes must be reviewed by face-to-face meetings participants.
+- A rework of papers on topics will be necessary.
+- Until our Berlin meeting, we will discuss open points and questions coming from these papers.
 3. AOB  
-4. Next Meetings (proposal)  
+- no AOBs.
+- Silke and Gerhard are still preparing the Berlin meeting. Invitations and details will be send end October/beginning November 2019.
+4. Next Meetings (agreed)  
 - Friday, 1 November 2019, 7am Boston/11am London/12pm Berlin/10pm Melbourne  
 - Friday, 29 November 2019, 7am Boston/12pm London/1pm Berlin/11pm Melbourne  
 - Friday, 20 December 2019, 7am Boston/12pm London/1pm Berlin/11pm Melbourne 

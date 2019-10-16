@@ -25,12 +25,19 @@ International numbers available: https://zoom.us/u/em7KBSS8T
 - EAC-CPF documents in GitHub were cleared up and new structured:    
   + [Meeting minutes](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/meeting-minutes) are structured by year and contains agenda and minutes of face-to-face and virtual meetings since 2017.
   + [Committee updates](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/committee-updates) are EAC-CPF team reports for TS-EAS meetings.
-  + [Working documents](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/working-documents) contains texts for [Outreach](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/working-documents/outreach), as call for comments, homepage updates etc. and papers on [Topics](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/working-documents/topics).
+  + [Working documents](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/working-documents) contains texts for [Outreach](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/working-documents/outreach), as call for comments, homepage updates etc. and papers on [Topics](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/eaccpf-subteam/working-documents/topics).  
+  
 2. face-to-face meeting wrap-up   
 - Notes from Austin meeting are still under construction. Kathy and Ailie sent their notes to Silke, who creates a comprehensive document and GitHub issues accordingly.
 - Notes must be reviewed by face-to-face meetings participants.
 - A rework of papers on topics will be necessary.
 - Until our Berlin meeting, we will discuss open points and questions coming from these papers.
+
+3. Next steps
+- Aaron will be asked to prepare a paper on relations until end December 2019.
+- EAD3 alignment will be started: 
+  + Silke works through documentation of Shared Schema team and adds GitHub issue numbers to elements
+  + EAC team will handle simple questions and issues first  
 3. AOB  
 - no AOBs.
 - Silke and Gerhard are still preparing the Berlin meeting. Invitations and details will be send end October/beginning November 2019.

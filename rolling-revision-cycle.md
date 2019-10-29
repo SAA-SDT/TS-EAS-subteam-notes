@@ -49,7 +49,7 @@ The Annual Calendar for Managing Minor Revision to Standards maintained by TS-EA
 ___
 ### Exceptions
 
-**Minor bug fixes or tag library changes may be reported / implemented outside of this review cycle.
+**Minor bug fixes or tag library changes may be reported / implemented outside of this review cycle. Such patches would then be approved within TS-EAS directly. 
 
 **For major revisions that would have significant impacts on compatibility with the existing schemas, TS-EAS would conduct more extensive community review and seek approval from Standards Committee and SAA Council. TS-EAS may choose to postpone the annual minor revision cycle if a major revision is planned or underway.
 

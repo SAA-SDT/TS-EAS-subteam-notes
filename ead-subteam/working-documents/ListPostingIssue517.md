@@ -18,21 +18,21 @@ Thank you very much in advance.
 
 ## Further details provided with the email
 ### Summary
-Suggestion to add &lt;objectxmlwrap&rt; as an alternative to &lt;did&rt; and its siblings within &lt;c&rt; 
-(or numbered &lt;c01&rt; to &lt;c12&rt;)
+Suggestion to add &lt;objectxmlwrap> as an alternative to &lt;did> and its siblings within &lt;c>
+(or numbered &lt;c01> to &lt;c12>)
 
 ### Intended new feature
 Enable the integration of descriptive metadata from other namespaces (e.g. MARC, VRACode, NUDS, etc.), 
 especially when describing single items of other domains, which are part of archival collections
 
 ### Options discussed so far
-- Giving a choice between either &lt;c&rt;&lt;did&rt; or &lt;c&rt;&lt;objectxmlwrap&rt; to provide identifying descriptive information of a resource
+- Giving a choice between either &lt;c>&lt;did> or &lt;c>&lt;objectxmlwrap> to provide identifying descriptive information of a resource
   - This would be the result of the original suggestion.
   - The concern was raised that this would undermine even a minimal level of predictability for metadata exchange, given that EAD already is at the bare minimum of required data.
   - This change would likely constitute a MAJOR REVISION and might hence be put on hold until the next major revision of EAD3
-- Using the currently available model of &lt;c&rt;&lt;did&rt; alongside &lt;c&rt;&lt;relations&rt; and make use of the &lt;objectxmlwrap&rt; element within &lt;relation&rt;
+- Using the currently available model of &lt;c>&lt;did> alongside &lt;c>&lt;relations> and make use of the &lt;objectxmlwrap> element within &lt;relation>
   - The question was raised whether establishing a “sameAs” relationship in this context would be conceptually sound.
   - This approach would not REQUIRE ANY CHANGES TO THE SCHEMA
-- Adding &lt;objectxmlwrap&rt; as direct, optional sub-element of &lt;did&rt;
-  - This suggestion went along with the precondition to still require at least one other sub-element within &lt;did&rt; (i.e. one element of the m.did group)
+- Adding &lt;objectxmlwrap> as direct, optional sub-element of &lt;did>
+  - This suggestion went along with the precondition to still require at least one other sub-element within &lt;did> (i.e. one element of the m.did group)
   - This change would likely constitute a MINOR REVISION and could hence be dealt with in the context of the current annual cycle.

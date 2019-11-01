@@ -2,6 +2,7 @@
 
 **Place**: Virtual meeting, Zoom  
 **Date**: Friday, 1 November 2019, 7am Boston/11am London/12pm Berlin/10pm Melbourne 
+
 **Connection**: 
 Join from PC, Mac, Linux, iOS or Android: https://yalelibrary.zoom.us/j/109550628   
 Or iPhone one-tap: US: +16465588656, 109550628#  or +16699006833, 109550628#   

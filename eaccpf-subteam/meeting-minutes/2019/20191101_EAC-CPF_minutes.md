@@ -9,6 +9,7 @@ Or Telephone: Dial (for higher quality, dial a number based on your current loca
 US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 853 5257 (Toll Free)
 Meeting ID: 109 550 628  
 International numbers available: https://zoom.us/u/em7KBSS8T
+
 **Apologies**: Karin, Kathy, Mark, Wim
 
 ## Agenda

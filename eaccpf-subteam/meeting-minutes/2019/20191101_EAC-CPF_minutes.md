@@ -56,7 +56,6 @@ Confirmed decisions
 - Indicate the &lt;nameentryset> as being used for parallel name entries (as per the US usage) via `@localType`
   - As `@localType` already exists and is not used with a fixed values list, this would mean no schema change is required, but mainly changes in the tag library, examples and other documentation
   - Silke to ask Kathy for real-life example for usage of "parallel" in the US; ideally we'd want to have an example for other uses of `@localType` in &lt;nameentryset>
-  - Silke to create a GitHub issue and label as "Documentation"
 - Recommend use of values "translation", "former", "previous" etc. with `@localType` of &lt;nameentry>
   - Silke to create a GitHub issue and label as "Documentation"
 - Add new attribute `@status` with pre-defined / closed list of values - "authorized" and "alternative", see issue https://github.com/SAA-SDT/eac-cpf-schema/issues/70 

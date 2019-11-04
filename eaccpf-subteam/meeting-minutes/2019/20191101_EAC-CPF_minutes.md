@@ -69,7 +69,7 @@ Confirmed decisions
 ### 6. next meetings
 - Friday, 22 November 2019, 7am Boston/12pm London/1pm Berlin/11pm Melbourne  
   - Apologies from Kerstin, potentially Karin as well
-  - Final approval of minutes, pick up on remaining aspects around names, potentially also start further conversation on assertion description
+  - pick up on remaining aspects around names, potentially also start further conversation on assertion description
 - Friday, 20 December 2019, 7am Boston/12pm London/1pm Berlin/11pm Melbourne 
 - Friday, 31 January 2020, 7am Boston/12pm London/1pm Berlin/11pm Melbourne 
 - Friday, 28 February 2020, 7am Boston/12pm London/1pm Berlin/11pm Melbourne 

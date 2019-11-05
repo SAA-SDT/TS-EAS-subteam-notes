@@ -5,7 +5,10 @@ After a successful release of the technical update of the Encoded Archival Conte
 ## One day dedicated to EAC-CPF
 Hence TS-EAS decided to have a one-day meeting only on selected topics from the EAC-CPF revision, when meeting in the context of the Annual Meeting of the Society of American Archivists (SAA) in Austin in August 2019. The topics on the table were  "Dates", "Names", "Identifiers" and the new addition of "Assertion Description". It should be noted that some of the updates, which are detailed below, are still in flux and will require further conversations during the next few months. The final result of the team's considerations will then be presented as part of the first draft publication for community feedback during the second half of 2020.
 ### Dates
-...
+EAC-CPF uses a variety of elements to encode date information, but only to some extent is it possible to express uncertainty about dates or even to classify part(s) of a given date range as unknown. EAC-CPF team has been looking at implementation of such uncertainty in other standards, including the Encoded Archival Description (EAD 2002 and EAD3), the Extended Date/Time Format (EDTF) Specification, the Text Encoding Initiative (TEI) and the Metadata Object Description Schema (MODS). Based on this comparison, the suggested changes include:
+- Adding the attribute @certainty (from EAD3) to the elements &lt;date>, &lt;fromDate> and &lt;toDate>;
+- Recommending the use of values inspired by EDTF such as "uncertain", "approximate" and "uncertain and approximate" with the newly added attribute @certainty;
+- Introducing a new attribute @status for the elements &lt;date>, &lt;fromDate> and &lt;toDate> to indicate their status as being "unknown" or "open" (e.g. for persons who are still alive).
 ### Names
 ...
 ### Identifiers

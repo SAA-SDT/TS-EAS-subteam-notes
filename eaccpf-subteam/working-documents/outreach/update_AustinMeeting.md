@@ -10,7 +10,7 @@ EAC-CPF uses a variety of elements to encode date information, but only to some 
 - Recommending the use of values inspired by EDTF such as "uncertain", "approximate" and "uncertain and approximate" with the newly added attribute @certainty;
 - Introducing a new attribute @status for the elements &lt;date>, &lt;fromDate> and &lt;toDate> to indicate their status as being "unknown" or "open" (e.g. for persons who are still alive).
 ### Names
-...
+While EAC-CPF is relatively straightforward with only using the element &lt;nameEntry> with &lt;part> to encode names and their constituent parts, there remain questions around the appropriate use of its sub-elements &lt;authorizedForm>, &lt;alternativeForm> and &lt;preferredForm>. 
 ### Identifiers
 ...
 ### Assertion Description

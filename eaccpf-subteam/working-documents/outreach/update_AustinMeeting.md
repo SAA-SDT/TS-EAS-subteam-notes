@@ -10,10 +10,12 @@ EAC-CPF uses a variety of elements to encode date information, but only to some 
 - Recommending the use of values inspired by EDTF such as "uncertain", "approximate" and "uncertain and approximate" with the newly added attribute @certainty;
 - Introducing a new attribute @status for the elements &lt;date>, &lt;fromDate> and &lt;toDate> to indicate their status as being "unknown" or "open" (e.g. for persons who are still alive).
 ### Names
-While EAC-CPF is relatively straightforward with only using the element &lt;nameEntry> with &lt;part> to encode names and their constituent parts, there remain questions around the appropriate use of its sub-elements &lt;authorizedForm>, &lt;alternativeForm> and &lt;preferredForm>. Meant to indicate the rule or convention, based on which a specific form of name can be identified as "authorized", "alternative" or "preferred", these elements - inherently - also provide information about the status of the name given in their parent &lt;nameEntry>. The EAC-CPF team has discussed options to disentangle the current situation by, e.g. 
-- Moving the encoding of rules and conventions more clearly into the element &lt;conventionDeclaration> in the &lt;control> section of an EAC-CPF instance;
-- Adding the attribute @rules (from EAD3) to &lt;nameEntry> to briefly note the applied rule here, plus adding an IDREF type attribute to &lt;nameEntry> in order to allow pointing to the corresponding &lt;conventionDeclaration> for further details;
-- Introducing a new attribute @status for the element &lt;nameEntry> to indicate the status of the name as being "authorized" or "alternative";
+While EAC-CPF is relatively straightforward with using the element &lt;nameEntry> plus &lt;part> to encode names and their constituent parts, there remain questions around the appropriate use of its other sub-elements: &lt;authorizedForm>, &lt;alternativeForm> and &lt;preferredForm>. Meant to indicate the rule or convention, based on which a specific form of name can be identified as "authorized", "alternative" or "preferred", these elements - indirectly - also provide information about the status of the name given in their parent &lt;nameEntry>. The EAC-CPF team has discussed options to disentangle the current situation, e.g. by:
+- Recommending more strongly that rules and conventions are encoded via the element &lt;conventionDeclaration> in the &lt;control> section of an EAC-CPF instance;
+- Adding the attribute @rules (from EAD3) to &lt;nameEntry> to briefly note the applied rule, plus adding an IDREF type attribute to &lt;nameEntry> to enable pointing to the corresponding &lt;conventionDeclaration> for further details;
+- Introducing a new attribute @status for the element &lt;nameEntry> to indicate the status of the name as being "authorized" or "alternative".
+Similarly, the EAC-CPF team is investigating the possibility of turning &lt;preferredForm> into an attribute as well.
+
 
 ### Identifiers
 ...

@@ -13,9 +13,10 @@ EAC-CPF uses a variety of elements to encode date information, but only to some 
 While EAC-CPF is relatively straightforward with using the element &lt;nameEntry> plus &lt;part> to encode names and their constituent parts, there remain questions around the appropriate use of its other sub-elements: &lt;authorizedForm>, &lt;alternativeForm> and &lt;preferredForm>. Meant to indicate the rule or convention, based on which a specific form of name can be identified as "authorized", "alternative" or "preferred", these elements - indirectly - also provide information about the status of the name given in their parent &lt;nameEntry>. The EAC-CPF team has discussed options to disentangle the current situation, e.g. by:
 - Recommending more strongly that rules and conventions are encoded via the element &lt;conventionDeclaration> in the &lt;control> section of an EAC-CPF instance;
 - Adding the attribute @rules (from EAD3) to &lt;nameEntry> to briefly note the applied rule, plus adding an IDREF type attribute to &lt;nameEntry> to enable pointing to the corresponding &lt;conventionDeclaration> for further details;
-- Introducing a new attribute @status for the element &lt;nameEntry> to indicate the status of the name as being "authorized" or "alternative".
-Similarly, the EAC-CPF team is investigating the possibility of turning &lt;preferredForm> into an attribute as well.
+- Introducing a new attribute @status for the element &lt;nameEntry> to indicate the status of the name as being "authorized" or "alternative";
+- Investigating the possibility of turning &lt;preferredForm> into an attribute as well.
 
+Alongside the expected changes for &lt;nameEntry>, the EAC-CPF team also is considering a name change from &lt;nameEntryParallel> to a more general &lt;nameEntrySet>. The use of the attribute @localType would then be recommended to indicate that all names grouped within &lt;nameEntrySet> are "parallel" as per the specific use case in the US American context or do all represent "former" forms of the name or "translation"-s of the name.
 
 ### Identifiers
 ...

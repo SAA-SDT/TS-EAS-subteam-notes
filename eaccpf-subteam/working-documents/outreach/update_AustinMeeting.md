@@ -17,10 +17,20 @@ While EAC-CPF is relatively straightforward with using the element &lt;nameEntry
 - Investigating the possibility of turning &lt;preferredForm> into an attribute as well.
 
 Alongside the expected changes for &lt;nameEntry>, the EAC-CPF team also is considering a name change from &lt;nameEntryParallel> to a more general &lt;nameEntrySet>. The use of the attribute @localType would then be recommended to indicate that all names grouped within &lt;nameEntrySet> are "parallel" as per the specific use case in the US American context or do all represent "former" forms of the name or "translation"-s of the name.
-
 ### Identifiers
-...
+Talking about the various ways to identify an EAC-CPF instance, its versions, its parts, the entity - or identity - it describes, as well as related resources and related entities, the EAC-CPF team has decided to focus especially on providing more specific descriptions and more appropriate examples to clarify which ID element - or attribute - to use for which use case. As a starting point, three types of identifiers have been defined, one of which can furthermore be divided into two sub-groups:
+- Database primary keys, used to uniquely identify each record within a given context; e.g. elements &lt;recordId> and &lt;otherRecordId> holding current and maybe previously used identifiers of the EAC-CPF instance;
+- Identifiers used to distinguish and determine entities; 
+  - Informational identifiers, e.g. the alphanumeric string representing the name of an entity as given in &lt;nameEntry>, which establishes a meaningful connection with the entity it represents;
+  - Non-informational identifiers, e.g. the primarily, but not exclusively numeric string of a globally unique and persistent identifier as given in &lt;entityId>, which does not have a meaningful connection with the entity it represents;
+- Identifiers used to create unique locations within an EAC-CPF instance; i.e. the attribute @xml:id providing identification for a specific element within the EAC-CPF XML.
+
+With regard to identifiers of EAC-CPF instances that have been merged or translated into the current one, the EAC-CPF team has  decided to promote the use of &lt;source> rather than &lt;otherRecordId>. Furthermore, &lt;entityId> will be renamed more appropriately to &lt;identityId>.
 ### Assertion Description
-...
+In addition to the three topics on existing elements above, the EAC-CPF team also discussed a new feature request, which deals with enabling users to encode the source of specific information as part of an EAC-CPF instance. This becomes relevant especially when looking at potentially contradicting sources e.g. for the name of an entity or the date or place of birth of a person. Discussions are still ongoing with regard to this topic, but the intent is: 
+- To introduce a new element called &lt;evidence> or similar as sub-element to most descriptive elements within EAC-CPF;
+- To include a sub-element &lt;foundData> with this new element to encode a brief description of the evidence data found in the (new) source;
+- To work with attributes to point to the exact element that includes the assertion and to refer to potentially contradicting assertions within the same EAC-CPF instance;
+- To enable connections between the new element &lt;evidence> and the elements &lt;source> and &lt;maintenanceEvent> in the &lt;control> section to encode information about the source in general as well as about agent making the assertion and the date of the assertion. 
 ## Next steps
 The EAC-CPF team will tackle pending questions with regard to these topics as well as others, which still require further consideration, in the context of its monthly meetings between December 2019 and March 2020, culminating in a three-day meeting from 9 to 12 March 2020 in Berlin, Germany. During this time, you are welcome to follow our conversations on GitHub [https://github.com/SAA-SDT/eac-cpf-schema/issues] to stay up-to-date with the EAC-CPF revision.

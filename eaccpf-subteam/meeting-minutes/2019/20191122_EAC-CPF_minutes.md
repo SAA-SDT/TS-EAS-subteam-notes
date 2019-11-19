@@ -11,7 +11,7 @@ International numbers available: https://zoom.us/u/em7KBSS8T
 Agenda
 1. Organisationl Matters
 2. Topic: Names
-* decision on following chapters: 1.5, 2, 3, see also current paper on [Topic: Names](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/eaccpf-subteam/working-documents/topics/names/Topic_names_20191122.pdf)
+* decision on following chapters: 1.5, 2, 3 in the current paper on [Topic: Names](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/eaccpf-subteam/working-documents/topics/names/Topic_names_20191122.pdf) and issues [#71](https://github.com/SAA-SDT/eac-cpf-schema/issues/71), [#68](https://github.com/SAA-SDT/eac-cpf-schema/issues/68), [#69](https://github.com/SAA-SDT/eac-cpf-schema/issues/69), [#67](https://github.com/SAA-SDT/eac-cpf-schema/issues/67)
 3. EAD Reconciliation
 * shared elements that differ in the question of being mandatory/optional, i.e. 
   * &lt;citation>, &lt;event>, &lt;item>

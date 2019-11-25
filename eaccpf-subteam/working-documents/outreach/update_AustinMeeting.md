@@ -1,5 +1,3 @@
-(document is currently in draft status)
-
 # EAC-CPF revision half-way into stage 2 
 After successfully releasing a minor revision of the Encoded Archival Context - Corporate Bodies, Persons, and Families (EAC-CPF) in December 2018, the EAC-CPF team of the Technical Subcommittee on Encoded Archival Standards (TS-EAS) is now half-way into the second stage of the standard's major revision. While all current issues are discussed on GitHub  [https://github.com/SAA-SDT/eac-cpf-schema/issues] and during the monthly team meetings, a few general topics emerged from these conversations that seemed to qualify for more in-depth analysis. 
 ## One day dedicated to EAC-CPF

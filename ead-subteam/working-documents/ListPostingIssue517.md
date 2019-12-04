@@ -8,7 +8,7 @@ the EAD team of TS-EAS (Technical Subcommittee on Encoded Archival Standards) is
 To ensure that the standards under TS-EAS' purview continue to be based on user needs, we are specifically interested in any 
 use cases from your institutions, which would support this change request.
 
-We'd appreciate any feedback to be posted to the GitHub issue cited above or sent to Kerstin Arnold (kerstin.arnold.berlin@gmail.com), the team lead for EAD, by end of play on Friday, 31 January 2020.
+We'd appreciate any feedback and examples to be posted to the GitHub issue cited above or sent via email to kerstin.arnold.berlin@gmail.com by end of play on Friday, 31 January 2020.
 
 Thank you very much in advance.
 

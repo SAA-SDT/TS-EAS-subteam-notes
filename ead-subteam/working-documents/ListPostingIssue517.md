@@ -3,16 +3,12 @@
 ## Email intro
 Dear colleagues,
 
-Following up on TS-EAS' (Technical Subcommittee on Encoded Archival Standards) intent to engage with 
-the community on suggested new features in the context of the annual calendar for minor revisions, the EAD team
-of TS-EAS is looking for community feedback on a suggested addition to EAD3 (see all details of the original proposal 
-and the conversation so far on GitHub - https://github.com/SAA-SDT/EAD3/issues/517). 
+the EAD team of TS-EAS (Technical Subcommittee on Encoded Archival Standards) is looking for community feedback on a suggested addition to EAD3 (see all details of the original proposal and the conversation so far on GitHub - https://github.com/SAA-SDT/EAD3/issues/517). 
 
 To ensure that the standards under TS-EAS' purview continue to be based on user needs, we are specifically interested in any 
 use cases from your institutions, which would support this change request.
 
-In line with the annual calendar for minor revisions, we will gather your feedback and input until the deadline of 
-Tuesday, 31 December 2019, including.
+We'd appreciate any feedback to be posted to the GitHub issue cited above or sent to Kerstin Arnold (kerstin.arnold.berlin@gmail.com), the team lead for EAD, by end of play on Friday, 31 January 2020.
 
 Thank you very much in advance.
 

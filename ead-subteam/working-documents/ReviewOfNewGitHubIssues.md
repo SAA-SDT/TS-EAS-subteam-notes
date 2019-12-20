@@ -8,7 +8,7 @@ This would be in combination with the annual calendar for minor revisions.
   - Potentially indicate the date of the next meeting as an initial option for the EAD team to discuss
   - Check if submission has been made on behalf of someone else
     - If yes, send information (link to GitHub) to according email address 
-  - (Added on 20 December 2019 based on the draft for major/minor changes as part of the Standards Protocol for Revisions) Ensure that submissions includes at least:
+  - (Added on 20 December 2019 based on the draft for major/minor changes as part of the Standards Protocol for Revisions) Ensure that submissions include at least:
     - Name of the submitting person and/or sponsoring group;
     - Identification of the component of the standard to be changed;
     - Brief description of the proposed change, and justification

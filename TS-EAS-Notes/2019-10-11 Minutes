@@ -1,10 +1,29 @@
+<!----- Conversion time: 1.084 seconds.
+
+
+Using this Markdown file:
+
+1. Cut and paste this output into your source file.
+2. See the notes and action items below regarding this conversion run.
+3. Check the rendered output (headings, lists, code blocks, tables) for proper
+   formatting and use a linkchecker before you publish this page.
+
+Conversion notes:
+
+* Docs to Markdown version 1.0β17
+* Wed Feb 12 2020 18:18:29 GMT-0800 (PST)
+* Source doc: https://docs.google.com/open?id=1QPdygIFc2aPD5VK3VLD0Vy0xC5GsUmNJG7UzazNcRik
+----->
+
+
 TS-EAS Meeting (October 11, 2019)
 
-Attendees: Mark, Karin, Jess, Clint, Kerstin, Smith, Aaron, Silke, Caitlin, Noah
+Attendees: Mark, Karin, Jess, Clint, Kerstin, Ailie, Aaron, Silke, Caitlin, Noah
 
 Regrets: Wim
 
 Minutes by Jess
+
 
 
 *   Introductions / Highlighting New Members
@@ -14,7 +33,7 @@ Minutes by Jess
     *   Good place to have all working documents here (move it here...)
     *   Question Kerstin: do we need to transfer ownership of directories
         *   No-just transfer it there using the “move” feature
-*   Intro to [EAD Revision](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/working-documents/ead-rolling-revision-cycle-DRAFT.md) (Kerstin)
+*   Intro to[ EAD Revision](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/working-documents/ead-rolling-revision-cycle-DRAFT.md) (Kerstin)
     *   Idea to use as template for all standards, with committee feedback
     *   Whether want to go ahead with this process for minor vs major releases
     *   Discussion of the ideal schedule for revision: an annual process, starting after annual meeting, with an open period for submissions (existing elements and attributes, additions) including classifying them as major/minor, and putting aside the major
@@ -116,3 +135,5 @@ How to engage people not in the TS but working and aiding us?
         *   Onboarding
         *   Charges
         *   Email for poll, meeting time, etc
+
+<!-- Docs to Markdown version 1.0β17 -->

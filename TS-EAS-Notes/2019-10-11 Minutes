@@ -1,0 +1,118 @@
+TS-EAS Meeting (October 11, 2019)
+
+Attendees: Mark, Karin, Jess, Clint, Kerstin, Smith, Aaron, Silke, Caitlin, Noah
+
+Regrets: Wim
+
+Minutes by Jess
+
+
+*   Introductions / Highlighting New Members
+*   Google Drive for working documents (Jess)
+    *   An invite is going to be sent to the mail you got the agenda on
+        *   Confirm the email on your SAA account is where you want it sent
+    *   Good place to have all working documents here (move it here...)
+    *   Question Kerstin: do we need to transfer ownership of directories
+        *   No-just transfer it there using the “move” feature
+*   Intro to [EAD Revision](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/working-documents/ead-rolling-revision-cycle-DRAFT.md) (Kerstin)
+    *   Idea to use as template for all standards, with committee feedback
+    *   Whether want to go ahead with this process for minor vs major releases
+    *   Discussion of the ideal schedule for revision: an annual process, starting after annual meeting, with an open period for submissions (existing elements and attributes, additions) including classifying them as major/minor, and putting aside the major
+    *   Look at having the implementation phase in spring, with publication of updated schema by next meeting in August
+    *   Standards committee to have a meeting next meeting next Thurs, with a result by the November meeting
+*   Comments and Related Discussion [EAD Revision]
+    *   Noah: once there is consensus over the document, it should be moved to somewhere more visible on GitHub (could be like revision documentation on the homepage like DACS does it).
+        *   Could have a process chart that communicates visually as well as a readme in GitHub
+        *   Example from DACS: [https://github.com/saa-ts-dacs/dacs](https://github.com/saa-ts-dacs/dacs), with examples at the bottom
+    *   Aaron: Is there a reason why just this is just EAD revision schedule?
+    *   Noah: Schedule was written based on EAD feature requests, but should be pretty generalizable
+    *   Aaron: Think it’s better to have a central workflow that applies to everything
+    *   Kerstin: Generalization should be something to consider for across the committee
+    *   Mark: Discussion about the place for patches in the revision schedule (including the need for a minor patch for EAD to fix c12 element in W3C XSD schemas)
+        *   Make patches and patch category more explicit
+    *   Noah: Agreement that patches fall under minor revisions, but a strategy hasn’t been decided on yet, but expects that we should be able to push those through in a more timely manner
+    *   Agreement that perhaps should just move ahead with the EAD group sending out information if TS-EAS is on-board
+    *   Deadline 2 weeks internally, and if there’s any major issues, discuss those by early November
+*   Add in standards: minor and major at the same time
+    *   Reportedly still waiting on comments to figure out revision status
+    *   Standards call: discussion of GitHub’s importance for us
+*   Committee reflection (Karin)
+    *   Planning reflection at Austin, but online instead
+    *   First part is the teams--how has it been working
+        *   Should we have more? Different teams? etc
+    *   The teams \
+What are your thoughts on how the work has been? \
+Does it work with these smaller teams? \
+Should we have more teams? Split the work into other teams? \
+Teams and meeting planning, meetings, cooperation and so on? Can the co-chairs help in some way? \
+How do you see the work moving forward? \
+
+        *   EAD (Noah)
+            *   Generally: teams are working well, and doesn’t think we should create more, with the number of subteams pretty good. At times: so much overlap between responsibilities of subteams, only having calls within a subteam can cause problems, because there are issues that need input from other teams.
+            *   Solution: has been to just invite other teams to the calls, with one minor process issue
+            *   Committee has lost some momentum after minor release: stalling related to revision calendar above and conversations with Standards Committee
+        *   EAC-CPF (Silke)
+            *   Agreement that smaller teams are useful, and adds that there is a core team, and that meetings have discussion topics in order to focus and get more things done.
+            *   Example: have some GitHub issues, and the team agreed to discuss one per meeting. Proved more helpful if someone had the topic assigned (one team member) to prepare that topic for all
+            *   Thinks there needs to be a face-to-face during the revision process for EAC-CPF. Face-to-face is important for longer-running projects. Example: an extra day around the SAA annual meeting
+            *   Agreement that there is no need for more subteams, because it’s hard to work on the one that they have--It’s more useful to work with the numbers they have and collaborate on specific tasks with other teams as necessary.
+        *   Documentation (Cory)
+            *   Reports that they are currently struggling with the mission of the group, and redefining it
+            *   Decision to possibly refocus documentation on work on outreach and documentation and away from tech support 
+            *   After they start meeting and revise the charge, it will be more apparent how membership should work with new mission. Thinks the composition is probably fine.
+            *   Idea of seeing whether standards is interested in contributing to work, working with the liaison
+        *   Schema team (Mark and Karin)
+            *   Don’t think that more teams are necessary, and can find the time to focus on the work that is important. Updates provided in advance of the meetings have been really helpful, and they would like to see that continue.
+            *   Publication process for EAD3 is complicated and there will be changes with the shared schema approach, including a lot to do in the world of documentation (updating GitHub, getting community feedback, etc)
+            *   Currently a question of how to formalize how schemas get published and create documentation, because that would make it a lot easier [A need to clean up and streamline the entire thing]
+                *   Idea to have formalized testing to catch bugs, and engage committee members in doing this
+        *   Related standards (Kerstin, for Regine)
+            *   Not quite sure how official this team is as a part of TS-EAS, because it’s an important point, but not exactly formalized
+            *   There is a question on whether this requires a separate team, or simply being aware of developments in related standards
+                *   Alternative: awareness of related standards as something we should integrate into processes in other teams [rather than a stand-alone team]
+            *   Agreement that in terms of structure: it’s quite good to have regular meetings to keep the flow going. There were assigned standards for one member to prepare for the meetings
+            *   A concern with making cooperation between teams as easy as possible, given how much overlap in charges there has been
+            *   Solution: inviting collaborators to meetings, but also a need to assign issues
+        *   Functions (Joost)
+            *   This team is dormant, because it applies to functions and we haven’t had time to start the work discussed in August meeting
+            *   Plan to move forward and actually create a schema for functions, but is really busy
+            *   Discuss later how we can get someone to get going with the work and then contact other teams
+            *   Important for success: contacting the people outside TS-EAS who could contribute going forward
+        *   General Take-Aways:
+            *   We should keep teams as they are, and possibly think about going the standards team route
+            *   Recommendation is to have a theme to discuss and assigning members to do things in the interest in productivity
+            *   Co-chairs should have reports for meetings
+            *   Need for all members to realize that being in a team is WORK
+    *   The whole TS \
+Is on-line full groups meetings 3 times a year enough? Too many? \
+How can we get more engagement? \
+What should we do if there is no engagement? \
+How to engage people not in the TS but working and aiding us?
+    *   
+        *   All give comments
+        *   Adrian: thinks meeting quarterly minimum is a good thing, and that we need check-ins on that level
+            *   Silke agreed
+        *   Caitlin: has reached out to EAS section leadership, which is still in transition
+            *   Caitlin will be doing liaison work with EAS section (meeting every 2 months)
+        *   Adrian: In terms of engagement, the chairs could advise on a starting point
+            *   Questions: the composition of the group? Should we move people around?
+            *   Ultimately outreach/engagement approach will give more direction
+        *   Karin: Co-chairs will discuss, with a decision on set recommendations for the larger group to discuss
+            *   Ideas to make participation easier
+                *   making meeting recordings available instead of just minutes
+                *   “Participation” by engaging and sending regrets when meeting attendance is not possible
+                *   Outline in GitHub and handbook--if things aren’t done, consequences
+*   Next meeting in end of February
+    *   2020-02-21, Friday 
+    *   Doodle poll for start time will be sent
+    *   Duration: 1.5 hour, with possible early end
+    *   Have team leaders prepare short report update
+        *   Design principles from schema subteam for next meeting
+    *   Times: create a list of people on the team with email addresses, countries, institutions
+        *   Add time zones to the roster [in progress on Google Drive]
+    *   Handbook status: in progress on google drive
+    *   Aiming in advance of February Meeting: GitHub Wiki Format?
+        *   Workflows
+        *   Onboarding
+        *   Charges
+        *   Email for poll, meeting time, etc

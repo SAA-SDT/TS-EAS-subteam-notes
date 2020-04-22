@@ -10,7 +10,8 @@ For 2019-2020, this will also include initial considerations with regard to a po
 - Alexander Duryee
 - Caitlin Rizzo
 - Karin Bredenberg (TS-EAS co-chair)
-- Kerstin Arnold (lead)
+- Kerstin Arnold (EAD team lead)
+- Mark Custer (Schema team lead)
 - Noah Huffman
-- Silke Jagodzinski
+- Silke Jagodzinski (EAC team lead)
 - Wim van Dongen

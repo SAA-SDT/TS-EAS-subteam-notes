@@ -404,7 +404,7 @@ Friday 7th:  6.00 am PDT / 7.00 am MDT / 8.00 am CDT / 9.00 am EDT / 2.00pm BST 
 
 Notetaker: Jess
 
-See also the presentation: 2020-08-03_Monday_TS_EAS_Meeting.pdf
+See also the presentation: [2020-08-03_Monday_TS_EAS_Meeting.pdf](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/SAA20/TS%20EAS%20Meetings/2020-08-03_Monday_TS_EAS_Meeting.pdf)
 
 
 #### Welcome to this week! from Karin
@@ -414,7 +414,7 @@ Karin started the meeting week off with the housekeeping which included that the
 
 #### Schema design principles from Mark
 
-The schema team has inherited two different schemas with different outcomes and processes to get the outcomes. The team has been working on unifying the schemas and their processes to be able to automate the process of schema publication. The schemas and procedures are supported with the draft design principles (see the document TS-EAS Schema Design Principles (July version).pdf) that for finalisation needs the aid from the whole TS with examples. The principles is published in the Handbook to be easy to access [https://github.com/SAA-SDT/TS-EAS-subteam-notes/wiki/Design-Principles](https://github.com/SAA-SDT/TS-EAS-subteam-notes/wiki/Design-Principles) .
+The schema team has inherited two different schemas with different outcomes and processes to get the outcomes. The team has been working on unifying the schemas and their processes to be able to automate the process of schema publication. The schemas and procedures are supported with the draft design principles (see the document [TS-EAS Schema Design Principles (July version).pdf](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/SAA20/TS%20EAS%20Meetings/TS-EAS%20Schema%20Design%20Principles%20(July%20version).pdf)) that for finalisation needs the aid from the whole TS with examples. The principles is published in the Handbook to be easy to access [https://github.com/SAA-SDT/TS-EAS-subteam-notes/wiki/Design-Principles](https://github.com/SAA-SDT/TS-EAS-subteam-notes/wiki/Design-Principles) .
 
 A question arises whether the principles should incorporate rules on the version naming conventions of the schemas. (EAD3) is the example being used. This discussion will be moved forward.
 
@@ -467,7 +467,7 @@ The guideline being created by the council is not completed. They will be introd
 
 Notetaker: Mark, Karin, Jess
 
-See also the presentation: 2020-08-04_Tuesday_TS_EAS_Meeting.pdf
+See also the presentation: [2020-08-04_Tuesday_TS_EAS_Meeting.pdf](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/SAA20/TS%20EAS%20Meetings/2020-08-04_Tuesday_TS_EAS_Meeting.pdf)
 
 
 #### Updates from EAC revision meetings (the week before) from Silke, Kerstin and Ailie (Includes anything that might require decisions from all of TS-EAS)
@@ -508,7 +508,7 @@ Another external referencing is the reference to other external resources which 
 
 A discussion followed including how or if it's a distinction in internal or external referencing. 
 
-**Decision: **Use the &lt;reference> also for this linking which means &lt;citation> becomes &lt;reference>. Suggested placement is in all elements that can contain text.
+**Decision**: Use the &lt;reference> also for this linking which means &lt;citation> becomes &lt;reference>. Suggested placement is in all elements that can contain text.
 
 
 ##### Abbreviation
@@ -540,7 +540,7 @@ For EAD the work will continue in the revision process due to the fact that EAD 
 
 Notetaker: Alex, Ailie, and Jess
 
-See also the presentation: 2020-08-05_Wednesday_TS_EAS_Meeting.pdf
+See also the presentation: [2020-08-05_Wednesday_TS_EAS_Meeting.pdf](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/SAA20/TS%20EAS%20Meetings/2020-08-05_Wednesday_TS_EAS_Meeting.pdf)
 
 This meeting was focusing on the members rotating off and welcoming the new members and introducing them to what TS EAS is doing.
 
@@ -605,7 +605,7 @@ The annual report on [GitHub](https://github.com/SAA-SDT/TS-EAS-subteam-notes/bl
 
 The team maintains and supports the usage of EAD with a focus on EAD3 but provides some support to EAD2002 due to continued use.
 
-A rolling revision cycle [not major revisions] has been developed and will be used in all eAS standards.
+A rolling revision cycle [not major revisions] has been developed and will be used in all EAS standards.
 
 
 
@@ -697,12 +697,12 @@ The on Monday discussed events that need to be examined in the scope of the EAC-
 
 Notetaker: Jess, Karin
 
-See also the presentation: 2020-08-06_Thursday_TS_EAS_Meeting.pdf
+See also the presentation: [2020-08-06_Thursday_TS_EAS_Meeting.pdf](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/SAA20/TS%20EAS%20Meetings/2020-08-06_Thursday_TS_EAS_Meeting.pdf)
 
 
 #### Bioghist from Kerstin
 
-Kerstin informed about the current status of the element which can be found in both the standards but with some differences. A report has been produced and is named 2020-08-06_Topic_BiogHist_TS_EAS_Meeting.pdf . A number of issues have been solved during the last week's meeting but some needs to be looked at in the context of EAD. 
+Kerstin informed about the current status of the element which can be found in both the standards but with some differences. A report has been produced and is named [2020-08-06_Topic_BiogHist_TS_EAS_Meeting.pdf](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/SAA20/TS%20EAS%20Meetings/2020-08-06_Topic_BiogHist_TS_EAS_Meeting.pdf) . A number of issues have been solved during the last week's meeting but some needs to be looked at in the context of EAD. 
 
 There are some pending questions including the elements &lt;list> and &lt;p> which can be dealt with in the schema publication process. In EAC-CPF there are a list item missing and it will be added to make the models the same.
 
@@ -774,7 +774,7 @@ The discussion ended with the conclusion of making it possible to add attributes
 
 Note taker: Adrian
 
-See also presentation: 2020-08-07_Friday_TS_EAS_Meeting.pdf
+See also presentation: [2020-08-07_Friday_TS_EAS_Meeting.pdf](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/SAA20/TS%20EAS%20Meetings/2020-08-07_Friday_TS_EAS_Meeting.pdf)
 
 
 #### RiC from Karin and Mark

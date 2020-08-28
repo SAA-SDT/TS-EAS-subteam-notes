@@ -190,7 +190,7 @@ There were 63 attending the meeting including the 11 TS EAS members.
 
 Notetaker: Jess
 
-See also the presentation named 2020-08-13_TS-EAS_Slidedeck.pdf for the meeting
+See also the presentation named [2020-08-13_TS-EAS_Slidedeck.pdf](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/SAA20/TS%20EAS%20Open%20meeting/2020-08-13_TS-EAS_Slidedeck.pdf) for the meeting
 
 
 #### Short introduction to TS EAS and what we been up to from Karin and Mark

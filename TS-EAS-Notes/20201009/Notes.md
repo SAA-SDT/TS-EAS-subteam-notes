@@ -208,7 +208,7 @@ EAS has used all their social media platforms to advertise calls for membership,
 
 #### EAD revision administrative needs (Kerstin)
 
-EAD taking comments and feedback until 2020-10-19 on their proposed revisions. See proposal here: [https://docs.google.com/document/d/1q8dpGxQyF2IOV9GmJoUwMlUeMTPiGRl8DKFllasv6Bw/edit#](https://docs.google.com/document/d/1q8dpGxQyF2IOV9GmJoUwMlUeMTPiGRl8DKFllasv6Bw/edit#) Can add comments and questions directly into the document.
+EAD taking comments and feedback until 2020-10-19 on their proposed revisions in the internal working document. 
 
 The EAD team will finalize this document during their next meeting, 2020-10-20, and then we will submit it to the Standards Committee so that it can be added to their agenda for either their November or December meeting.
 

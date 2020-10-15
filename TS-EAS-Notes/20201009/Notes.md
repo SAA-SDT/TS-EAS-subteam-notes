@@ -212,7 +212,7 @@ EAD taking comments and feedback until 2020-10-19 on their proposed revisions. S
 
 The EAD team will finalize this document during their next meeting, 2020-10-20, and then we will submit it to the Standards Committee so that it can be added to their agenda for either their November or December meeting.
 
-Link to slides:  [https://docs.google.com/presentation/d/1Wcud35wobrJCfm-4NRRllVQfiVnPfszdEJjaLFRz3f0/edit?usp=sharing](https://docs.google.com/presentation/d/1Wcud35wobrJCfm-4NRRllVQfiVnPfszdEJjaLFRz3f0/edit?usp=sharing) 
+Link to slides:  [https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/20201009/EAD_revision.pdf](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/20201009/EAD_revision.pdf) 
 
 A revision needs to be carried out based upon a number of criterias:
 

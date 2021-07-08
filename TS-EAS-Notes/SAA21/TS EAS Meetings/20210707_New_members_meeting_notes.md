@@ -217,7 +217,7 @@ Regrets:
 
 
 * Welcome! (Karin and Mark)
-    * This meeting will be recorded and the slides are available on GitHub
+    * This meeting will be recorded and the slides are available on GitHub: https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/SAA21/TS%20EAS%20Meetings/TS%20EAS%202021-07-07.pdf
 * Thank you to members leaving TS EAS (Karin)
     * Members cycling off include:
         * Anila Anjeli

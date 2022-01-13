@@ -1,16 +1,14 @@
 # Annual Calendar for Managing Minor Revisions to Standards maintained by TS-EAS
 
-## General note
-The Annual Calendar for Managing Minor Revisions to Standards maintained by TS-EAS is in its final draft, though pending official confirmation and approval. (Status: 29 October 2019)
-
 ## Preamble
-The Annual Calendar for Managing Minor Revisions to Standards maintained by TS-EAS has been created with EAD3 in mind at a time, when EAC-CPF has been undergoing a major revision. It is, however, the intent of TS-EAS to apply this calendar to all current and future standards  under TS-EAS' purview, as long as they are not currently undergoing a major revision.
+The Annual Calendar for Managing Minor Revisions to Standards maintained by TS-EAS has been created with EAD3 in mind at a time, when EAC-CPF has been undergoing a major revision. It is, however, the intent of TS-EAS to apply this calendar to all current and future standards under TS-EAS' purview, as long as they are not currently undergoing a major revision.
 
 ## August - December
 - Open period for community and TS-EAS to discuss feature requests or other change requests submitted for consideration in the next annual release.
 - Submissions should follow the templates provided in the relevant GitHub repositories, e.g. https://github.com/SAA-SDT/EAD3/issues/new for EAD3, and include justification for how the change will benefit the standard more broadly.
+- Alternatively, submissions can be made via the TS-EAS webform at https://www2.archivists.org/standards/TS-EAS-report-an-issue
 - The appropriate team of TS-EAS will review and evaluate requests as they are received, seek additional information when necessary, and conduct discussion of requests in GitHub issue threads.
-- Where necessary, the team may seek broader community input on particular change requests via the EAD listserv and other outlets, especially with regard to requests that could potentially lead to major changes (last part of the sentence added on 20 December 2019 based on the draft for major/minor changes as part of the Standards Protocol for Revisions).
+- Where necessary, the team may seek broader community input on particular change requests via the EAD listserv and other outlets, especially with regard to requests that could potentially lead to major changes.
 
 ## December 31
 - Deadline for receiving feature requests for inclusion in annual release.

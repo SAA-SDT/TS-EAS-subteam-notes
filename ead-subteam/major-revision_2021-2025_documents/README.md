@@ -1,1 +1,1 @@
-
+This folder will be providing access to various documents in relation to the major revision of EAD. During the calls for comments (in spring to summer and in late autumn/early winter 2024), more documents will be added here or linked form here step by step. 

@@ -16,9 +16,9 @@ This folder will be providing access to various documents in relation to the maj
 
 Throughout the Call for Comments phase, we will hold several open drop-in sessions to present various aspects of the revision and the new version of EAD and to allow the community to ask questions, e.g. in preparation to submitting comments. The slide decks used during these sessions are also added to this folder here:
 
-- 1st Open Session[https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/20240424_EAD4CallForComments_Session1.pdf] on 24 April 2024, 10am UTC and 4pm UTC (both iterations with the same content)
+- [1st Open Session](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/20240424_EAD4CallForComments_Session1.pdf) on 24 April 2024, 10am UTC and 4pm UTC (both iterations with the same content)
 
 Furthermore, we are running a 5-piece series together with the colleagues of the SAA Description Section on their blog "Descriptive Notes". Follow along for a more general introduction into the main aspects of this current revision.
 
-- 1st blog post[https://saadescription.wordpress.com/2024/03/05/shape-the-future-of-ead-a-call-to-action-part-i/] from 5 March 2024 about the why and how of the revision
-- 2nd blog post[https://saadescription.wordpress.com/2024/04/22/shape-the-future-of-ead-a-call-to-action-part-ii/] from 22 April 2024 focussing on the alignment between EAD and its sibling standard EAC-CPF
+- [1st blog post](https://saadescription.wordpress.com/2024/03/05/shape-the-future-of-ead-a-call-to-action-part-i/) from 5 March 2024 about the why and how of the revision
+- [2nd blog post](https://saadescription.wordpress.com/2024/04/22/shape-the-future-of-ead-a-call-to-action-part-ii/) from 22 April 2024 focussing on the alignment between EAD and its sibling standard EAC-CPF

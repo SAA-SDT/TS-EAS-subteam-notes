@@ -22,3 +22,5 @@ Furthermore, we are running a 5-piece series together with the colleagues of the
 
 - [1st blog post](https://saadescription.wordpress.com/2024/03/05/shape-the-future-of-ead-a-call-to-action-part-i/) from 5 March 2024 about the why and how of the revision
 - [2nd blog post](https://saadescription.wordpress.com/2024/04/22/shape-the-future-of-ead-a-call-to-action-part-ii/) from 22 April 2024 focussing on the alignment between EAD and its sibling standard EAC-CPF
+
+If you found a bug in the current draft or want to suggest further features to be added, have a look at this [overview of issues that have been submitted already](https://github.com/SAA-SDT/eas-schemas/milestone/5) to see if someone else had the same comment. You can either add further comments to an existing issue of this list or create a new issue via the "New issue" button on that page.    

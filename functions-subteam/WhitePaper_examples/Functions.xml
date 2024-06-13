@@ -1,0 +1,1652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eaf>
+    <!-- Control area -->
+<!-- 1..1 -->
+<control audience="external/interna" id="elementID" target="internalReferenceID" base="http://www.oxygenxml.com/" languageOfElement="languageOfElement"
+    scriptOfElement="scriptOfElement" languageEncoding="iso639-1/iso639-2b/iso639-3/ietf-bcp-47/otherLanguageEncoding" scriptEncoding="iso15924/otherScriptEncoding" dateEncoding="iso8601/otherDateEncoding"
+    countryEncoding="iso3166-1/otherCountryEncoding" repositoryEncoding="iso15511/otherRepositoryEncoding" detailLevel="minimal/basic/extended" maintenanceStatus="cancelled/deleted/deletedMerged/deletedReplaced/deletedSplit/derived/new/revised"
+    publicationStatus="approved/inProcess/published">
+    <!-- 1..1 -->    
+    <recordId audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement">recordId</recordId>
+    <!-- 1..1 -->    
+    <maintenanceAgency audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+             countryCode="countryCode" vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+             valueURI="http://www.oxygenxml.com/">
+        <!-- 0..1 -->    
+        <agencyCode audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            status="alternative/authorized" vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                 valueURI="http://www.oxygenxml.com/">agencyCode
+            </agencyCode>
+        <!-- 0..n -->    
+        <agencyName audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                 vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                 valueURI="http://www.oxygenxml.com/">agencyName
+            </agencyName>
+        <!-- 0..n -->
+            <otherAgencyCode audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                 localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" status="alternative/authorized" vocabularySource="vocabularySource"
+                 vocabularySourceURI="http://www.oxygenxml.com/" valueURI="http://www.oxygenxml.com/">other agency code
+            </otherAgencyCode>
+        <!-- 0..1 -->
+            <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                 maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                <!-- 1..n -->
+                <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                     maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                         localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                         sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+               <!-- 0..n -->
+                    <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                         maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                         href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                        <!-- 0..n -->
+                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                        </span>
+                    </reference>
+                </p>
+            </descriptiveNote>
+        </maintenanceAgency>
+    <!-- 1..1 -->    
+    <maintenanceHistory audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement">
+        <!-- 1..n -->    
+        <maintenanceEvent audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            maintenanceEventType="cancelled/created/deleted/derived/revised/unknown/updated">
+            <!-- 1..1 -->
+            <agent audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                     vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                     valueURI="http://www.oxygenxml.com/" agentType="human/machine/unknown">agent
+                </agent>
+            <!-- 1..1 -->    
+            <eventDateTime audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                standardDateTime="standardDateTime">Maintenance Event Date and Time</eventDateTime>
+            <!-- 0..n -->    
+            <eventDescription audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement">
+                Maintenance Event Description    
+                <!-- 0..n -->
+                <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                </span>
+                <!-- 0..n -->
+                <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                    href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+                </reference>
+            </eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+    <!-- 0..1 -->    
+    <sources audience="external/internal" id="elementID" target="internalReferenceID" base="http://www.oxygenxml.com/" languageOfElement="languageOfElement"
+             scriptOfElement="scriptOfElement">
+        <!-- 1..n -->    
+        <source audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                 href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle"
+                 vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                 valueURI="http://www.oxygenxml.com/">
+            <!-- 1..n -->    
+            <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                <!-- 0..n -->
+                <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                </span>
+            </reference>
+            <!-- 0..n -->
+                <citedRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                     unit="unit">cited range text
+                </citedRange>
+            <!-- 0..1 -->    
+            <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                <!-- 1..n -->
+                <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+                    <!-- 0..n -->
+                    <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                        href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                        <!-- 0..n -->
+                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                        </span>
+                    </reference>
+                </p>
+            </descriptiveNote>
+            <!-- 0..1 -->
+                <objectXMLWrap audience="external/internal" id="elementID" target="internalReferenceID">
+                    <anyElement/>
+                </objectXMLWrap>
+            </source>
+        <!-- 0..1 -->    
+        <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+            <!-- 1..n -->
+            <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                <!-- 0..n -->
+                <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                </span>
+                <!-- 0..n -->
+                <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                    href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+                </reference>
+            </p>
+        </descriptiveNote>
+        </sources>
+    <!-- 0..n -->
+        <otherRecordId audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+             localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" vocabularySource="vocabularySource"
+             vocabularySourceURI="http://www.oxygenxml.com/" valueURI="http://www.oxygenxml.com/">other record id
+        </otherRecordId>
+    <!-- 0..n -->    
+    <languageDeclaration audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+             languageCode="languageCode" scriptCode="scriptCode">
+        <!-- 0..1 -->    
+        <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+            <!-- 1..n -->
+            <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                <!-- 0..n -->
+                <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                </span>
+                <!-- 0..n -->
+                <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                    href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+                </reference>
+            </p>
+        </descriptiveNote>
+        </languageDeclaration>
+    <!-- 0..n -->
+    <conventionDeclaration audience="external/internal" id="elementID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement" target="internalReferenceID" valueURI="sdfs" vocabularySource="sdfs" vocabularySourceURI="sdffds">
+        <!-- 1..1 -->
+        <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+            href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+            <!-- 0..n -->
+            <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+            </span>
+        </reference>
+        <!-- 0..1 -->
+        <shortCode audience="external/internal" id="elementID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement" target="internalReferenceID">short code</shortCode>
+        <!-- 0..1 -->    
+        <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+            <!-- 1..n -->
+            <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                <!-- 0..n -->
+                <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                </span>
+                <!-- 0..n -->
+                <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                    href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+                </reference>
+            </p>
+        </descriptiveNote>
+    </conventionDeclaration>
+    <localControl audience="external/internal" id="elementID" languageOfElement="languageOfElement" localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+        scriptOfElement="scriptOfElement" target="internalReferenceID" valueURI="http://www.oxygenxml.com/" vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/">
+        <!-- 1..n -->
+        <term audience="external" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" maintenanceEventReference="maintenanceEventReferenceID" 
+            scriptOfElement="scriptOfElement" sourceReference="sourceReferenceID" target="internalReferenceID">term</term>
+        <!-- 0..1 -->
+        <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+            standardDate="standardDate" status="unknown">date
+        </date>
+        <!-- or -->
+        <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+            <!-- 0..1 -->
+            <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                standardDate="standardDate" status="unknown">date
+            </fromDate>
+            <!-- 0..1 -->
+            <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                standardDate="standardDate" status="unknown/ongoing">date
+            </toDate>
+        </dateRange>
+    </localControl>
+    <!-- 0..n -->
+    <localTypeDeclaration audience="external/internal" id="elementID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement" 
+        target="internalReferenceID" valueURI="http://www.oxygenxml.com/" vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com">
+        <!-- 1..1 -->
+        <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+            href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+            <!-- 0..n -->
+            <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+            </span>
+        </reference>
+        <!-- 0..1 -->
+        <shortCode audience="external/internal" id="elementID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement" target="internalReferenceID">short code</shortCode>
+        <!-- 0..1 -->    
+        <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+            <!-- 1..n -->
+            <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                <!-- 0..n -->
+                <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                </span>
+                <!-- 0..n -->
+                <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                    href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+                </reference>
+            </p>
+        </descriptiveNote>
+    </localTypeDeclaration>
+    <!-- 0..n -->
+    <rightsDeclaration audience="external/internal" id="elementID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement" 
+        target="internalReferenceID" valueURI="http://www.oxygenxml.com/" vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com">
+        <!-- 1..1 -->
+        <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+            href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+            <!-- 0..n -->
+            <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+            </span>
+        </reference>
+        <!-- 0..1 -->
+        <shortCode audience="external/internal" id="elementID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement" target="internalReferenceID">short code</shortCode>
+        <!-- 0..1 -->    
+        <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+            <!-- 1..n -->
+            <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                <!-- 0..n -->
+                <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                </span>
+                <!-- 0..n -->
+                <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                    href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+                </reference>
+            </p>
+        </descriptiveNote>
+    </rightsDeclaration>
+    <!-- 0..n -->
+    <representation audience="external/internal" href="http://www.oxygenxml.com" id="elementID" languageOfElement="languageOfElement" linkRole="linkRole" linkTitle="linkTitle" 
+        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" scriptOfElement="scriptOfElement" target="internalReferenceID">text</representation>
+    
+    </control>
+    <!-- Functions descriptions elements -->
+    <functionsDescription functionStatus="A term or a link to a ontology term" audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+        languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+        <!-- Inspiration from EAC-CPF which means attributes in the elements mimic EAC-CPF and there are attributes added -->
+        <!-- Identity area -->
+        <!-- 1..1 -->
+        <identity audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+            identityType="acquired/given" languageOfElement="languageOfElement" localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+            scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+            <!-- 0..n -->
+            <identityId audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+                scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID"
+                vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                valueURI="http://www.oxygenxml.com/">text</identityId>
+            <!-- 1..1 -->
+            <functionType audience="external/internal" id="elementID" target="internalReferenceID" value="Function/subFunction/Business process/Activity/Task/Transaction/other"
+                vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/" valueURI="http://www.oxygenxml.com/"/>
+            <!-- 0..n -->
+            <otherFunctionTypes audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                <!-- 1..n -->
+                <otherFunction audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+                    scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID"
+                    vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                    valueURI="http://www.oxygenxml.com/"></otherFunction>
+                <!-- 0..1 -->
+                <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 1..n -->
+                    <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 0..n -->
+                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                        </span>
+                        <!-- 0..n -->
+                        <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                            href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                            <!-- 0..n -->
+                            <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                            </span>
+                        </reference>
+                    </p>
+                </descriptiveNote>
+            </otherFunctionTypes>
+            <!-- 1..n -->
+            <nameEntry audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID" preferredForm="false/true"
+                scriptOfElement="scriptOfElement" sourceReference="sourceReferenceID" status="alternative/authorized" target="internalReferenceID"
+                vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/" valueURI="http://www.oxygenxml.com/">
+                <!-- 1..n -->
+                <part audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">part</part>
+                <!-- 0..n -->
+                <useDates audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                    languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                    <!-- one of these -->
+                    <!-- date or dateRange or dateSet (0..1) -->
+                    <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                        standardDate="standardDate" status="unknown">date
+                    </date>
+                    <!-- or -->
+                    <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 0..1 -->
+                        <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown">date
+                        </fromDate>
+                        <!-- 0..1 -->
+                        <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown/ongoing">date
+                        </toDate>
+                    </dateRange>
+                    <!-- or -->
+                    <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 2..n -->
+                        <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown">date
+                        </date>
+                        <!-- or -->
+                        <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                            <!-- 0..1 -->
+                            <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown">date
+                            </fromDate>
+                            <!-- 0..1 -->
+                            <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown/ongoing">date
+                            </toDate>
+                        </dateRange>
+                    </dateSet>
+                </useDates>
+            </nameEntry>
+            <!-- or -->
+            <nameEntrySet>
+                <!-- 2..n -->
+                <nameEntry audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID" preferredForm="false/true"
+                    scriptOfElement="scriptOfElement" sourceReference="sourceReferenceID" status="alternative/authorized" target="internalReferenceID"
+                    vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/" valueURI="http://www.oxygenxml.com/">
+                    <!-- 1..n -->
+                    <part audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">part</part>
+                    <!-- 0..n -->
+                    <useDates audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                        languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                        <!-- one of these -->
+                        <!-- date or dateRange or dateSet (0..1) -->
+                        <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown">date
+                        </date>
+                        <!-- or -->
+                        <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                            <!-- 0..1 -->
+                            <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown">date
+                            </fromDate>
+                            <!-- 0..1 -->
+                            <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown/ongoing">date
+                            </toDate>
+                        </dateRange>
+                        <!-- or -->
+                        <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                            <!-- 2..n -->
+                            <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown">date
+                            </date>
+                            <!-- or -->
+                            <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                <!-- 0..1 -->
+                                <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                    standardDate="standardDate" status="unknown">date
+                                </fromDate>
+                                <!-- 0..1 -->
+                                <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                    standardDate="standardDate" status="unknown/ongoing">date
+                                </toDate>
+                            </dateRange>
+                        </dateSet>
+                    </useDates>
+                </nameEntry>
+                <!-- 0..n -->
+                <useDates audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                    languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                    <!-- one of these -->
+                    <!-- date or dateRange or dateSet (0..1) -->
+                    <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                        standardDate="standardDate" status="unknown">date
+                    </date>
+                    <!-- or -->
+                    <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 0..1 -->
+                        <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown">date
+                        </fromDate>
+                        <!-- 0..1 -->
+                        <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown/ongoing">date
+                        </toDate>
+                    </dateRange>
+                    <!-- or -->
+                    <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 2..n -->
+                        <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown">date
+                        </date>
+                        <!-- or -->
+                        <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                            <!-- 0..1 -->
+                            <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown">date
+                            </fromDate>
+                            <!-- 0..1 -->
+                            <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown/ongoing">date
+                            </toDate>
+                        </dateRange>
+                    </dateSet>
+                </useDates>
+            </nameEntrySet>
+            <!-- 0..1 -->
+            <classifications audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                <!-- 1..n -->
+                <classification audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+                    scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID"
+                    vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                    valueURI="http://www.oxygenxml.com/">text</classification>
+                <!-- 0..1 -->
+                <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 1..n -->
+                    <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 0..n -->
+                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                        </span>
+                        <!-- 0..n -->
+                        <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                            href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                            <!-- 0..n -->
+                            <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                            </span>
+                        </reference>
+                    </p>
+                </descriptiveNote>
+            </classifications>
+            <!-- 0..n -->
+            <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                <!-- 1..n -->
+                <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+                    <!-- 0..n -->
+                    <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                        href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                        <!-- 0..n -->
+                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                        </span>
+                    </reference>
+                </p>
+            </descriptiveNote>
+        </identity>
+        <!-- Context area -->
+        <!-- 0..1 -->
+        <description audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+            languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+            <!-- 0..1 of each of the following -->
+            <functionDates audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                <!-- one of these -->
+                <!-- date or dateRange or dateSet (0..1) -->
+                <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                    standardDate="standardDate" status="unknown">date
+                </date>
+                <!-- or -->
+                <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 0..1 -->
+                    <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                        standardDate="standardDate" status="unknown">date
+                    </fromDate>
+                    <!-- 0..1 -->
+                    <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                        standardDate="standardDate" status="unknown/ongoing">date
+                    </toDate>
+                </dateRange>
+                <!-- or -->
+                <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 2..n -->
+                    <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                        standardDate="standardDate" status="unknown">date
+                    </date>
+                    <!-- or -->
+                    <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 0..1 -->
+                        <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown">date
+                        </fromDate>
+                        <!-- 0..1 -->
+                        <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown/ongoing">date
+                        </toDate>
+                    </dateRange>
+                </dateSet>
+            </functionDates>
+            <functionAgents audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                <!-- 1..n -->
+                <functionAgent audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+                    scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID"
+                    vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                    valueURI="http://www.oxygenxml.com/">text</functionAgent>
+            </functionAgents>            
+            <functionDescription audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                <!-- 1..n -->
+                <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+                    <!-- 0..n -->
+                    <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                        href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                        <!-- 0..n -->
+                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                        </span>
+                    </reference>
+                </p>
+            </functionDescription>
+            <functionHistory audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                <!-- 1..n -->
+                <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 0..n -->
+                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                    </span>
+                    <!-- 0..n -->
+                    <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                        href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                        <!-- 0..n -->
+                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                        </span>
+                    </reference>
+                </p>
+            </functionHistory>
+            <legislations audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                <!-- 1..n -->
+                <legislation audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+                    scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID"
+                    vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                    valueURI="http://www.oxygenxml.com/">
+                    <!-- 1..n -->
+                    <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 0..n -->
+                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                        </span>
+                        <!-- 0..n -->
+                        <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                            href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                            <!-- 0..n -->
+                            <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                            </span>
+                        </reference>
+                    </p>
+                    <dates audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                        languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                        <!-- one of these -->
+                        <!-- date or dateRange or dateSet (0..1) -->
+                        <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown">date
+                        </date>
+                        <!-- or -->
+                        <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                            <!-- 0..1 -->
+                            <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown">date
+                            </fromDate>
+                            <!-- 0..1 -->
+                            <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown/ongoing">date
+                            </toDate>
+                        </dateRange>
+                        <!-- or -->
+                        <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                            <!-- 2..n -->
+                            <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown">date
+                            </date>
+                            <!-- or -->
+                            <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                <!-- 0..1 -->
+                                <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                    standardDate="standardDate" status="unknown">date
+                                </fromDate>
+                                <!-- 0..1 -->
+                                <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                    standardDate="standardDate" status="unknown/ongoing">date
+                                </toDate>
+                            </dateRange>
+                        </dateSet>
+                    </dates>
+                </legislation>
+            </legislations>
+            <!-- Description of subfunctions area -->
+            <!-- 0..1 -->
+            <subfunctionDescriptions>
+                <!-- 1..n -->
+                <subfunction sequence="A sequence value" functionStatus="A term or a link to a ontology term" audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" 
+                    id="elementID" languageOfElement="languageOfElement" localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+                    scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                    <!-- Identity area -->
+                    <!-- 1..1 -->
+                    <identity audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                        identityType="acquired/given" languageOfElement="languageOfElement" localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+                        scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                        <!-- 0..n -->
+                        <identityId audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+                            scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID"
+                            vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                            valueURI="http://www.oxygenxml.com/">text</identityId>
+                        <!-- 1..1 -->
+                        <functionType audience="external/internal" id="elementID" target="internalReferenceID" value="Function/subFunction/Business process/Activity/Task/Transaction/other"
+                            vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/" valueURI="http://www.oxygenxml.com/"/>
+                        <!-- 0..n -->
+                        <otherFunctionTypes audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                            languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                            <!-- 1..n -->
+                            <otherFunction audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+                                scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID"
+                                vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                                valueURI="http://www.oxygenxml.com/"></otherFunction>
+                            <!-- 0..1 -->
+                            <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                <!-- 1..n -->
+                                <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                    <!-- 0..n -->
+                                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                    </span>
+                                    <!-- 0..n -->
+                                    <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                                        href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                                        <!-- 0..n -->
+                                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                        </span>
+                                    </reference>
+                                </p>
+                            </descriptiveNote>
+                        </otherFunctionTypes>
+                        <!-- 1..n -->
+                        <nameEntry audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID" preferredForm="false/true"
+                            scriptOfElement="scriptOfElement" sourceReference="sourceReferenceID" status="alternative/authorized" target="internalReferenceID"
+                            vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/" valueURI="http://www.oxygenxml.com/">
+                            <!-- 1..n -->
+                            <part audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">part</part>
+                            <!-- 0..n -->
+                            <useDates audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                                languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                                <!-- one of these -->
+                                <!-- date or dateRange or dateSet (0..1) -->
+                                <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                    standardDate="standardDate" status="unknown">date
+                                </date>
+                                <!-- or -->
+                                <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                    <!-- 0..1 -->
+                                    <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown">date
+                                    </fromDate>
+                                    <!-- 0..1 -->
+                                    <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown/ongoing">date
+                                    </toDate>
+                                </dateRange>
+                                <!-- or -->
+                                <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                    <!-- 2..n -->
+                                    <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown">date
+                                    </date>
+                                    <!-- or -->
+                                    <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                        <!-- 0..1 -->
+                                        <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                            standardDate="standardDate" status="unknown">date
+                                        </fromDate>
+                                        <!-- 0..1 -->
+                                        <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                            standardDate="standardDate" status="unknown/ongoing">date
+                                        </toDate>
+                                    </dateRange>
+                                </dateSet>
+                            </useDates>
+                        </nameEntry>
+                        <!-- or -->
+                        <nameEntrySet>
+                            <!-- 2..n -->
+                            <nameEntry audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID" preferredForm="false/true"
+                                scriptOfElement="scriptOfElement" sourceReference="sourceReferenceID" status="alternative/authorized" target="internalReferenceID"
+                                vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/" valueURI="http://www.oxygenxml.com/">
+                                <!-- 1..n -->
+                                <part audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">part</part>
+                                <!-- 0..n -->
+                                <useDates audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                                    languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                                    <!-- one of these -->
+                                    <!-- date or dateRange or dateSet (0..1) -->
+                                    <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown">date
+                                    </date>
+                                    <!-- or -->
+                                    <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                        <!-- 0..1 -->
+                                        <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                            standardDate="standardDate" status="unknown">date
+                                        </fromDate>
+                                        <!-- 0..1 -->
+                                        <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                            standardDate="standardDate" status="unknown/ongoing">date
+                                        </toDate>
+                                    </dateRange>
+                                    <!-- or -->
+                                    <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                        <!-- 2..n -->
+                                        <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                            standardDate="standardDate" status="unknown">date
+                                        </date>
+                                        <!-- or -->
+                                        <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                            <!-- 0..1 -->
+                                            <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                                standardDate="standardDate" status="unknown">date
+                                            </fromDate>
+                                            <!-- 0..1 -->
+                                            <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                                standardDate="standardDate" status="unknown/ongoing">date
+                                            </toDate>
+                                        </dateRange>
+                                    </dateSet>
+                                </useDates>
+                            </nameEntry>
+                            <!-- 0..n -->
+                            <useDates audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                                languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                                <!-- one of these -->
+                                <!-- date or dateRange or dateSet (0..1) -->
+                                <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                    standardDate="standardDate" status="unknown">date
+                                </date>
+                                <!-- or -->
+                                <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                    <!-- 0..1 -->
+                                    <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown">date
+                                    </fromDate>
+                                    <!-- 0..1 -->
+                                    <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown/ongoing">date
+                                    </toDate>
+                                </dateRange>
+                                <!-- or -->
+                                <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                    <!-- 2..n -->
+                                    <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown">date
+                                    </date>
+                                    <!-- or -->
+                                    <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                        <!-- 0..1 -->
+                                        <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                            standardDate="standardDate" status="unknown">date
+                                        </fromDate>
+                                        <!-- 0..1 -->
+                                        <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                            standardDate="standardDate" status="unknown/ongoing">date
+                                        </toDate>
+                                    </dateRange>
+                                </dateSet>
+                            </useDates>
+                        </nameEntrySet>
+                        <!-- 0..1 -->
+                        <classifications audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                            languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                            <!-- 1..n -->
+                            <classification audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" 
+                                scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID"
+                                vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                                valueURI="http://www.oxygenxml.com/">text</classification>
+                            <!-- 0..1 -->
+                            <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                <!-- 1..n -->
+                                <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                    <!-- 0..n -->
+                                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                    </span>
+                                    <!-- 0..n -->
+                                    <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                                        href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                                        <!-- 0..n -->
+                                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                        </span>
+                                    </reference>
+                                </p>
+                            </descriptiveNote>
+                        </classifications>
+                        <!-- 0..n -->
+                        <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                            <!-- 1..n -->
+                            <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                <!-- 0..n -->
+                                <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                </span>
+                                <!-- 0..n -->
+                                <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                                    href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                                    <!-- 0..n -->
+                                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                    </span>
+                                </reference>
+                            </p>
+                        </descriptiveNote>
+                    </identity>
+                    <!-- Context area -->
+                    <!-- 0..1 -->
+                    <description>
+                        <!-- 0..1 of each of the following -->
+                        <functionDates audience="external/internal" base="http://www.oxygenxml.com/" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID"
+                            languageOfElement="languageOfElement"  scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" target="internalReferenceID">
+                            <!-- one of these -->
+                            <!-- date or dateRange or dateSet (0..1) -->
+                            <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown">date
+                            </date>
+                            <!-- or -->
+                            <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                <!-- 0..1 -->
+                                <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                    standardDate="standardDate" status="unknown">date
+                                </fromDate>
+                                <!-- 0..1 -->
+                                <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                    standardDate="standardDate" status="unknown/ongoing">date
+                                </toDate>
+                            </dateRange>
+                            <!-- or -->
+                            <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                <!-- 2..n -->
+                                <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                    standardDate="standardDate" status="unknown">date
+                                </date>
+                                <!-- or -->
+                                <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                    <!-- 0..1 -->
+                                    <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown">date
+                                    </fromDate>
+                                    <!-- 0..1 -->
+                                    <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown/ongoing">date
+                                    </toDate>
+                                </dateRange>
+                            </dateSet>
+                        </functionDates>
+                        <functionAgents>
+                            <!-- 1..n -->
+                            <functionAgent></functionAgent>
+                        </functionAgents>            
+                        <functionDescription>
+                            <!-- 1..n -->
+                            <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                <!-- 0..n -->
+                                <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                </span>
+                                <!-- 0..n -->
+                                <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                                    href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                                    <!-- 0..n -->
+                                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                    </span>
+                                </reference>
+                            </p>
+                        </functionDescription>
+                        <functionHistory>
+                            <!-- 1..n -->
+                            <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                <!-- 0..n -->
+                                <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                </span>
+                                <!-- 0..n -->
+                                <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                                    href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                                    <!-- 0..n -->
+                                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                    </span>
+                                </reference>
+                            </p>
+                        </functionHistory>
+                        <legislations>
+                            <!-- 1..n -->
+                            <legislation>
+                                <!-- 1..n -->
+                                <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                    <!-- 0..n -->
+                                    <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                    </span>
+                                    <!-- 0..n -->
+                                    <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                                        href="http://www.oxygenxml.com/" linkRole="linkRole" linkTitle="linkTitle">reference
+                                        <!-- 0..n -->
+                                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">text
+                                        </span>
+                                    </reference>
+                                </p>
+                                <!-- One of these -->
+                                <!-- date or dateRange or dateSet (0..1) -->
+                                <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                    standardDate="standardDate" status="unknown">date
+                                </date>
+                                <!-- or -->
+                                <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                    <!-- 0..1 -->
+                                    <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown">date
+                                    </fromDate>
+                                    <!-- 0..1 -->
+                                    <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown/ongoing">date
+                                    </toDate>
+                                </dateRange>
+                                <!-- or -->
+                                <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                    <!-- 2..n -->
+                                    <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                        standardDate="standardDate" status="unknown">date
+                                    </date>
+                                    <!-- or -->
+                                    <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                                        <!-- 0..1 -->
+                                        <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                            standardDate="standardDate" status="unknown">date
+                                        </fromDate>
+                                        <!-- 0..1 -->
+                                        <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                            standardDate="standardDate" status="unknown/ongoing">date
+                                        </toDate>
+                                    </dateRange>
+                                </dateSet>
+                            </legislation>
+                        </legislations>
+                    </description>
+                    <!-- Possibility to nest subfunctions -->
+                    <!-- 0..n -->
+                    <subFunction>
+                        <!-- All subfunction elelements and attributes -->
+                    </subFunction>
+                </subfunction>
+            </subfunctionDescriptions>
+        </description>
+    <!-- relationships area to function/activity/ead/eac/others --> 
+        <relations audience="external/internal" id="elementID" target="internalReferenceID" base="http://www.oxygenxml.com/" languageOfElement="languageOfElement"
+            scriptOfElement="scriptOfElement" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID"
+            conventionDeclarationReference="conventionDeclarationReferenceID">
+            <!-- 1..n -->
+            <relation audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                <!-- 1..1 -->
+                <targetEntity targetType="agent/corporateBody/family/function/person/resource" audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement"
+                    scriptOfElement="scriptOfElement" vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                    valueURI="http://www.oxygenxml.com/" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID"
+                    conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 1..n -->
+                    <part audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">part</part>
+                    <part audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">part</part>
+                </targetEntity>
+                <!-- 0..n new for Functions-->
+                <targetRelationship targetRelationshipType="hierarchical/associative/temporal" audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement"
+                    scriptOfElement="scriptOfElement" vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                    valueURI="http://www.oxygenxml.com/" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID"
+                    conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <part audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">part</part>
+                    <part audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">part</part>
+                </targetRelationship>
+                <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                    certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                    standardDate="standardDate" status="unknown">date
+                </date>
+                <!-- or -->
+                <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 0..1 -->
+                    <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                        standardDate="standardDate" status="unknown">date
+                    </fromDate>
+                    <!-- 0..1 -->
+                    <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                        standardDate="standardDate" status="unknown/ongoing">date
+                    </toDate>
+                </dateRange>
+                <!-- or -->
+                <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                    sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 2..n -->
+                    <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 0..1 -->
+                        <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown">date
+                        </fromDate>
+                        <!-- 0..1 -->
+                        <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown/ongoing">date
+                        </toDate>
+                    </dateRange>
+                    <!-- or -->
+                    <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                        standardDate="standardDate" status="unknown">date
+                    </date>
+                </dateSet>
+                <!-- 0..n -->
+                <place audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" vocabularySource="vocabularySource"
+                    vocabularySourceURI="http://www.oxygenxml.com/" valueURI="http://www.oxygenxml.com/"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 0..n -->
+                    <placeName aaudience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" vocabularySource="vocabularySource"
+                        vocabularySourceURI="http://www.oxygenxml.com/" valueURI="http://www.oxygenxml.com/"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                        countryCode="countryCode">Name
+                    </placeName>
+                    <!-- 0..n -->
+                    <placeRole audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                        valueURI="http://www.oxygenxml.com/" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID"
+                        conventionDeclarationReference="conventionDeclarationReferenceID">Role
+                    </placeRole>
+                    <!-- 0..n -->
+                    <geographicCoordinates aaudience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                        coordinateSystem="coordinateSystem">geographicCoordinates</geographicCoordinates>
+                    <!-- 0..n -->
+                    <address audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 1..n -->
+                        <addressLine audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" addressLineType="country/county/district/municipality/postBox/postalCode/region/street">
+                            addressline
+                        </addressLine>
+                        <addressLine audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" addressLineType="country/county/district/municipality/postBox/postalCode/region/street">
+                            addressline
+                        </addressLine>
+                    </address>
+                    <!-- 0..n -->
+                    <contact audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 1..n -->
+                        <contactLine audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" href="http://www.oxygenxml.com/"
+                            linkRole="http://www.oxygenxml.com/" linkTitle="linkTitle" contactLineType="directions/email/fax/homepage/mobileNumber/phoneNumber">
+                            contactline
+                        </contactLine>
+                        <contactLine audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" href="http://www.oxygenxml.com/"
+                            linkRole="http://www.oxygenxml.com/" linkTitle="linkTitle" contactLineType="directions/email/fax/homepage/mobileNumber/phoneNumber">
+                            contactline
+                        </contactLine>
+                    </contact>
+                    <!-- One of these -->
+                    <!-- date or dateRange or dateSet (0..1) -->
+                    <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                        certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                        standardDate="standardDate" status="unknown">date
+                    </date>
+                    <!-- or -->
+                    <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 0..1 -->
+                        <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown">date
+                        </fromDate>
+                        <!-- 0..1 -->
+                        <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown/ongoing">date
+                        </toDate>
+                    </dateRange>
+                    <!-- or -->
+                    <dateSet audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                        sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- 2..n -->
+                        <dateRange audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                            <!-- 0..1 -->
+                            <fromDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown">date
+                            </fromDate>
+                            <!-- 0..1 -->
+                            <toDate audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                                localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                                sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                                certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                                standardDate="standardDate" status="unknown/ongoing">date
+                            </toDate>
+                        </dateRange>
+                        <!-- or -->
+                        <date audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" calendar="calendar"
+                            certainty="certainty" era="era" notAfter="notAfter" notBefore="notBefore"
+                            standardDate="standardDate" status="unknown">date
+                        </date>
+                    </dateSet>
+                </place>
+                <!-- 0..n -->
+                <relationType audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    vocabularySource="vocabularySource" vocabularySourceURI="http://www.oxygenxml.com/"
+                    valueURI="http://www.oxygenxml.com/" maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID"
+                    conventionDeclarationReference="conventionDeclarationReferenceID" localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID">
+                    relationtpe
+                </relationType>
+                <!-- 0..n -->
+                <targetRole audience="external/internal" conventionDeclarationReference="conventionDeclarationReferenceID" id="elementID" languageOfElement="languageOfElement" 
+                    localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID" 
+                    scriptOfElement="scriptOfElement" sourceReference="sourceReferenceID" target="internalReferenceID" valueURI="http://www.oxygenxml.com/" vocabularySource="sss" 
+                    vocabularySourceURI="http://www.oxygenxml.com/">
+                    targetRole
+                </targetRole>
+                <!-- 0..1 -->
+                <descriptiveNote audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                    maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                    <!-- 1..n -->
+                    <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <!-- text -->
+                        <!-- 0..n -->
+                        <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                            href="http://www.oxygenxml.com/" linkRole="http://www.oxygenxml.com/"
+                            linkTitle="linkTitle">
+                        </reference>
+                        <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                            href="http://www.oxygenxml.com/" linkRole="http://www.oxygenxml.com/"
+                            linkTitle="linkTitle">
+                        </reference>
+                    </p>
+                    <p audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                        maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID">
+                        <reference audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            maintenanceEventReference="maintenanceEventReferenceID" sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID"
+                            href="http://www.oxygenxml.com/" linkRole="http://www.oxygenxml.com/"
+                            linkTitle="linkTitle">
+                        </reference>
+                        <!-- 0..n -->
+                        <span audience="external/internal" id="elementID" target="internalReferenceID" languageOfElement="languageOfElement" scriptOfElement="scriptOfElement"
+                            localType="localTypeValue" localTypeDeclarationReference="localTypeDeclarationReferenceID" maintenanceEventReference="maintenanceEventReferenceID"
+                            sourceReference="sourceReferenceID" conventionDeclarationReference="conventionDeclarationReferenceID" style="style">
+                        </span>
+                    </p>
+                </descriptiveNote>
+                <!-- 0..1 -->
+                <objectXMLWrap audience="external/internal" id="elementID" target="internalReferenceID">
+                    <anyElement/>
+                </objectXMLWrap>
+            </relation>
+        </relations>
+    </functionsDescription>
+</eaf>

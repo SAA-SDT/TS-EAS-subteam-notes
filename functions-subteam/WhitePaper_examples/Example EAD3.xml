@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example EAD3 prepared by TS EAS describing the Fictional Testing Center for use in Functions example -->
+<ead xmlns="http://ead3.archivists.org/schema/"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd" audience="external">
+  <control countryencoding="iso3166-1"
+            dateencoding="iso8601"
+            langencoding="iso639-2b"
+            repositoryencoding="iso15511">
+      <recordid>002</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper localtype="filing">Fictional Testing Center records</titleproper>
+            <author>TS-EAS</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>TS-EAS</publisher>
+            <p>
+               <date>2023-05-26</date>
+            </p>
+         </publicationstmt>
+      </filedesc>
+      <maintenancestatus value="revised"/>
+      <maintenanceagency countrycode="US">
+         <agencyname>TS-EAS</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="US">English</language>
+         <script scriptcode="US"/>
+      </languagedeclaration>
+      <conventiondeclaration>
+         <citation/>
+         <descriptivenote>
+            <p>Describing Archives: A Content Standard</p>
+         </descriptivenote>
+      </conventiondeclaration>
+      <localcontrol localtype="findaidstatus">
+         <term>published</term>
+      </localcontrol>
+            <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2023-09-06T09:53:15.4451509+02:00">2023-09-06T09:53:15.4451509+02:00</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>EAD 2002 to EAD3 Migration Style Sheet(EAD2002ToEAD3.xsl)</agent>
+            <eventdescription>EAD 2002 instanace migrated to EAD3 (http://ead3.archivists.org/schema/).</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime>2023-04-05</eventdatetime>
+            <agenttype value="human"/>
+            <agent>TS EAS</agent>
+            <eventdescription>Finding aid encoded, 2023-04-05</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection">
+      <did>
+         <unittitle>The Fictional Testing Center records</unittitle>
+         <origination>
+            <corpname>
+               <part>The Fictional Testing Center</part>
+            </corpname>
+         </origination>
+         <unitid>002</unitid>
+         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>1.5</quantity>            
+            <unittype>linear feet</unittype>            
+         </physdescstructured>
+         <unitdate calendar="gregorian"
+                   certainty="inferred"
+                   datechar="creation"
+                   era="ce"
+                   normal="1968/1999"
+                   unitdatetype="inclusive">1968-1999</unitdate>
+         <langmaterial>
+            <language langcode="eng">English</language>
+         </langmaterial>
+         <repository>
+            <name>
+               <part>TS-EAS Repository</part>
+            </name>
+         </repository>
+      </did>
+      <custodhist>
+         <head>Custodial History</head>
+         <p>These materials were transferred to the TS-EAS Repository in December 1999 as Dr. Martin ended his tenure as dirctor of the Fictional Testing Center.</p>
+      </custodhist>
+      <accessrestrict encodinganalog="506">
+         <head>Restrictions on Access</head>
+         <p>Unrestricted access.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Terms Governing Use and Reproduction</head>
+         <p>All requests subject to limitations noted in departmental policies on
+          reproduction.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <head>Citation</head>
+         <p>[after identification of item(s)], Fictional Testing Center records, Emory University Archives, Stuart A. Rose Manuscript, Archives, and Rare Book Library.</p>
+      </prefercite>
+      <scopecontent>
+         <head>Scope and Contents</head>
+         <p>Records relating to the Fictional Testing Center from 1969-1999, including annual reports, correspondence, photographs, and subject files related to programming and testing protocols developed by the Center.</p>
+      </scopecontent>
+      <dsc dsctype="in-depth">
+         <head>Container List</head>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="folder">1</container>
+               <unittitle>Annual reports, 1968-1975</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="folder">2</container>
+               <unittitle>Annual reports, 1976-1987</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="folder">3</container>
+               <unittitle>Annual reports, 1987-1994</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="folder">4</container>
+               <unittitle>Annual reports, 1994-1999</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <container localtype="folder">1</container>
+               <unittitle>Correspondence, 1968-1975</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <container localtype="folder">2</container>
+               <unittitle>Correspondence, 1976-1999</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <container localtype="folder">3</container>
+               <unittitle>Photographs, 1990-1999</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <container localtype="folder">4</container>
+               <unittitle>Seminar: "Learning about the Universe," Caldwell 99, 1976</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <container localtype="folder">5</container>
+               <unittitle>Seminar: "Getting your Geography Right for a Better Story," 1990</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <container localtype="folder">1</container>
+               <unittitle>Subject file: grants</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <container localtype="folder">2</container>
+               <unittitle>Subject file: testing experiments, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <container localtype="folder">3</container>
+               <unittitle>Subject file: outcome improvement suggestions</unittitle>
+            </did>
+         </c01>
+      </dsc>
+      <relations>
+         <relation relationtype="functionrelation" href="Example Swedish process(complex).xml">
+            <relationentry>Thorough function description</relationentry>
+         </relation>
+         <relation relationtype="functionrelation" href="Example Function Description(Swedish process).xml">
+            <relationentry>The description of the function grant writing</relationentry>
+         </relation>
+         <relation relationtype="cpfrelation" href="Example%20EAC-CPF.xml">
+            <relationentry>The Fictional Testing Center</relationentry>
+         </relation>
+         <relation relationtype="resourcerelation" href="Example%20EAD2002.xml">
+            <relationentry>The Fictional Testing Center old records description</relationentry>
+         </relation>
+      </relations>
+   </archdesc>
+</ead>

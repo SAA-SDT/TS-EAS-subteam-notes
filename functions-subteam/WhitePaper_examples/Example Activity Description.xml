@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eaf>    
+    <control detailLevel="basic" 
+        languageEncoding="iso639-2b" 
+        scriptEncoding="iso15924" 
+        dateEncoding="iso8601" 
+        countryEncoding="iso3166-1" 
+        repositoryEncoding="iso15511" 
+        publicationStatus="published" 
+        maintenanceStatus="revised">
+    <recordID>record 1a</recordID>
+    <maintenanceAgency>
+        <agencyCode>US-TSEAS</agencyCode>
+        <agencyName>TS-EAS</agencyName>
+    </maintenanceAgency>
+    <maintenanceHistory>
+        <maintenanceEvent maintenanceEventType="created" id="event1">
+            <agent agentType="human">TS-EAS</agent>
+            <eventDateTime standardDateTime="2023-03-17" />
+            <eventDescription>
+                <span>Creation</span>
+            </eventDescription>
+        </maintenanceEvent>
+    </maintenanceHistory>
+    <languageDeclaration languageCode="eng" scriptCode="latn"/>
+    <conventionDeclaration><reference>ISDF – International Standard for Describing Functions, 1st ed., International
+        Council on Archives, 2008</reference></conventionDeclaration>
+</control>
+<functionsDescription functionStatus="active">
+    <identity>
+        <identityID valueURI="http://vocab.getty.edu/page/aat/300055423">FunctionIdentityID</identityID>
+        <functionType value="Activity" valueURI="https://www.ica.org/standards/RiC/ontology#Activity" />
+        <nameEntry><part>grant writing</part></nameEntry>
+    </identity>
+    <description>
+        <functionDates>
+            <dateRange>
+                <fromDate standardDate="1968">1968</fromDate>
+                <toDate standardDate="1999">1999</toDate>
+            </dateRange>
+        </functionDates>
+        <functionDescription>
+            <p>The organization applied for grants to support its creation of gudiance for novels to improve Caldwell 99 in the Universe.</p>
+        </functionDescription>
+        <functionHistory>
+            <p>The activity was created at the same time as the center was established.</p>
+        </functionHistory>
+    </description>
+</functionsDescription>
+    <relations>
+        <relation>
+            <targetEntity targetType="function" targetTypeURI="https://www.ica.org/standards/RiC/ontology#Activity" valueURI="Example Function Description.xml"><part>The Fictional Testing Center functions description</part></targetEntity>
+            <relationType valueURI="https://www.ica.org/standards/RiC/RiC-O_1-0-1.html#isOrWasSubeventOf"/>
+        </relation>
+           <relation>
+               <targetEntity targetType="agent" targetTypeURI="https://www.ica.org/standards/RiC/ontology#Agent" valueURI="Example EAC-CPF.xml"><part>The Fictional Testing Center</part></targetEntity>
+                 <relationType valueURI="https://www.ica.org/standards/RiC/ontology#isOrWasPerformedBy"/>
+           </relation>
+               <relation>
+                   <targetEntity targetType="resource" targetTypeURI="https://www.ica.org/standards/RiC/ontology#Resource" valueURI="Example EAD3.xml">The Fictional Testing Center records</targetEntity>
+                   <relationType valueURI="https://www.ica.org/standards/RiC/ontology#resultsOrResultedIn"/> 
+             </relation>
+        <relation>
+            <targetEntity targetType="resource" targetTypeURI="https://www.ica.org/standards/RiC/ontology#Resource" valueURI="Example EAD2002.xml">The Fictional Testing Center old records description</targetEntity>
+            <relationType valueURI="https://www.ica.org/standards/RiC/ontology#resultsOrResultedIn"/> 
+        </relation>
+    </relations>    
+</eaf>

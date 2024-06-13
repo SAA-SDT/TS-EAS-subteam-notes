@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eaf>    
+    <control detailLevel="extended" 
+        languageEncoding="iso639-2b" 
+        scriptEncoding="iso15924" 
+        dateEncoding="iso8601" 
+        countryEncoding="iso3166-1" 
+        repositoryEncoding="iso15511" 
+        publicationStatus="published" 
+        maintenanceStatus="revised">
+        <recordID>record 1b</recordID>
+    <maintenanceAgency>
+        <agencyCode>SE-agency1</agencyCode>
+        <agencyName>The agency</agencyName>
+        <otherAgencyCode>A1</otherAgencyCode>
+    </maintenanceAgency>
+    <maintenanceHistory>
+        <maintenanceEvent maintenanceEventType="created" id="event1">
+            <agent agentType="human">Elizabeth Roke</agent>
+            <eventDateTime standardDateTime="2022-11-22" />
+            <eventDescription>Creation</eventDescription>
+        </maintenanceEvent>
+        <maintenanceEvent maintenanceEventType="updated" id="event2">
+            <agent agentType="human">Karin Bredenberg</agent>
+            <eventDateTime standardDateTime="2022-11-29" />
+            <eventDescription>The record is updated</eventDescription>
+        </maintenanceEvent>
+        <maintenanceEvent maintenanceEventType="updated" id="event3">
+            <agent agentType="human">Karin Bredenberg</agent>
+            <eventDateTime standardDateTime="2022-11-29" />
+            <eventDescription>
+                <span sourceReference="source2">A subfunction have been transfeered to another agency</span>
+            </eventDescription>
+        </maintenanceEvent>
+    </maintenanceHistory>
+    <sources>
+        <source id="source1"><reference href="https://riksarkivet.se/Media/pdf-filer/V%C3%A4gledning%20f%C3%B6r%20processorienterad%20informationskartl%C3%A4ggning.pdf ">Sweden website</reference></source>
+        <source id="source2">
+            <reference href="https://riksarkivet.se/Media/pdf-filer/V%C3%A4gledning%20f%C3%B6r%20processorienterad%20informationskartl%C3%A4ggning.pdf ">Sweden website</reference>
+            <citedRange unit="page">30</citedRange>
+            <descriptiveNote><p>The subfunction was transfeered from the National Archives to MSB</p></descriptiveNote>
+        </source>
+    </sources>
+    <languageDeclaration languageCode="eng" scriptCode="latn"/>
+    <conventionDeclaration><reference>ISDF – International Standard for Describing Functions, 1st ed., International
+        Council on Archives, 2008</reference></conventionDeclaration>
+</control>
+<functionsDescription>
+    <identity>
+        <functionType value="Function" valueURI="https://www.ica.org/standards/RiC/ontology#Activity" />
+        <nameEntry><part>Publish and grant research funding</part></nameEntry>
+    </identity>
+    <description>
+        <functionDates>
+            <dateRange>
+                <fromDate>2000-01-01</fromDate>
+                <toDate status="ongoing"/>
+            </dateRange>
+        </functionDates>
+        <functionDescription><p>Application preparation.</p></functionDescription>
+        <functionHistory><p>Here is something else about the history.</p></functionHistory>
+        <legislations>
+            <legislation>
+                <p>Following the legislation law</p>
+            </legislation>
+        </legislations>
+        <subfunctionDescriptions>
+        <subfunction id="subfunction1" sequence="1">
+                <identity >
+                    <identityID valueURI="https://www.ica.org/standards/RiC/ontology#Activity">1.1</identityID>
+                    <functionType value="Function" valueURI="https://www.ica.org/standards/RiC/ontology#Activity"></functionType>
+                    <nameEntry>Application preparation</nameEntry>
+                </identity>
+                <description>
+                    <functionDescription>
+                        <p>Gather information about the financial support and how to do the publication of grants to apply for.
+                        Create drafts for grant text including how to apply and aiding text rules and rules around applying the grant.
+                        Confirm the call text.
+                        Publication and distribution of the call text.
+                        <reference href="link to related record for carrying out the work" linkRole="linkrole" linkTitle="Related record for details">Some related record</reference>
+                        </p>
+                    </functionDescription>
+                    <functionAgents><functionAgent>Some agency</functionAgent></functionAgents>
+                </description>
+        </subfunction>
+            <subfunction id="subfunction2" maintenanceEventReference="event3" subfunctionStatus="removed" sequence="2">
+                <identity>
+                    <identityID valueURI="https://www.ica.org/standards/RiC/ontology#Activity">1.1.1</identityID>
+                    <functionType value="Function" valueURI="https://www.ica.org/standards/RiC/ontology#Activity"></functionType>
+                    <nameEntry>1st evaluation and selection</nameEntry>
+                </identity>
+                <description>
+                    <functionDates>
+                        <dateRange>
+                            <fromDate>2000-01-01</fromDate>
+                            <toDate>2001-12-31</toDate>
+                        </dateRange>
+                    </functionDates>
+                    <functionDescription>
+                        <p>Make sure the applications fulfills the rules.  Give the application to the correct body for a first examination.
+                            <reference href="link to first pass report" linkRole="linkrole" linkTitle="First pass report">first pass report</reference>
+                        </p>
+                    </functionDescription>
+                    <functionAgents><functionAgent>Another agent</functionAgent></functionAgents>
+                </description>
+        </subfunction>
+        </subfunctionDescriptions>
+    </description>
+</functionsDescription>
+    <relations>
+        <relation>
+            <targetEntity targetType="agent" targetTypeURI="https://www.ica.org/standards/RiC/ontology#Agent" valueURI="Example EAC-CPF.xml"><part>The Fictional Testing Center</part></targetEntity>
+            <relationType valueURI="https://www.ica.org/standards/RiC/ontology#isOrWasPerformedBy"/>
+        </relation>
+        <relation>
+            <targetEntity targetType="resource" targetTypeURI="https://www.ica.org/standards/RiC/ontology#Resource" valueURI="Example EAD3.xml">The Fictional Testing Center records</targetEntity>
+            <relationType valueURI="https://www.ica.org/standards/RiC/ontology#resultsOrResultedIn"/> 
+        </relation>
+        <relation>
+            <targetEntity targetType="resource" targetTypeURI="https://www.ica.org/standards/RiC/ontology#Resource" valueURI="Example EAD2002.xml">The Fictional Testing Center old records description</targetEntity>
+            <relationType valueURI="https://www.ica.org/standards/RiC/ontology#resultsOrResultedIn"/> 
+        </relation>
+    </relations>
+    
+</eaf>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example EAC-CPF 2.0 prepared by TS EAS describing Save the Children Fund for use in Functions example -->
+<?xml-model href="https://eac.staatsbibliothek-berlin.de/schema/v2/eac.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://archivists.org/ns/eac/v2 https://eac.staatsbibliothek-berlin.de/schema/v2/eac.xsd"
+    xmlns="https://archivists.org/ns/eac/v2" audience="external">  
+    <control countryEncoding="iso3166-1" dateEncoding="iso8601" languageEncoding="iso639-2b"
+        maintenanceStatus="new" publicationStatus="published" repositoryEncoding="iso15511"
+        scriptEncoding="iso15924">
+        <recordId>001</recordId>
+        <maintenanceAgency>
+            <agencyCode>US-TSEAS</agencyCode>
+            <agencyName>TS-EAS</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent maintenanceEventType="created">
+                <agent agentType="human">TS-EAS</agent>
+                <eventDateTime standardDateTime="2021-12-16"/>
+            </maintenanceEvent>
+            <maintenanceEvent maintenanceEventType="updated">
+                <agent agentType="human">TS-EAS</agent>
+                <eventDateTime standardDateTime="2022-03-07"/>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <conventionDeclaration>
+            <reference href="https://www2.archivists.org/standards">Describing Archives: A Content
+                Standard</reference>
+            <shortCode>DACS</shortCode>
+        </conventionDeclaration>
+    </control>
+    <cpfDescription>
+        <identity>
+            <entityType value="corporateBody"/>
+            <nameEntry scriptOfElement="Latn" languageOfElement="eng" status="authorized">
+                <part localType="primary_name" languageOfElement="eng">Fictional Testing Center</part>
+            </nameEntry>
+            <nameEntry status="authorized">
+                <part localType="primary_name" languageOfElement="swe">Det påhittade testcentret</part>
+            </nameEntry>
+        </identity>
+        <description>
+            <!-- Textual description of the function preformed -->
+            <functions>
+                <function valueURI="link">
+                    <term>Grant provider</term>         
+                    <descriptiveNote>
+                        <p>The organization’s mission is to create testing programs to improve the quality of
+                            fictional stories and develop gudiance for novels to improve Caldwell 99 in the Universe.</p>
+                    </descriptiveNote>
+                </function>
+            </functions>
+        </description>
+        <!-- Link to the Functions description made through creating an eaf document -->
+        <relations>
+            <relation>
+                <targetEntity targetType="function" valueURI="Example Function Description.xml" >
+                    <part>Function description</part>
+                </targetEntity>
+                <relationType valueURI="https://www.ica.org/standards/RiC/RiC-O_v0-2.html#performsOrPerformed"/>
+            </relation>
+            <relation>
+                <targetEntity targetType="function" valueURI="Example Swedish process(complex).xml" >
+                    <part>Thorough Function description</part>
+                </targetEntity>
+                <relationType valueURI="https://www.ica.org/standards/RiC/RiC-O_v0-2.html#performsOrPerformed"/>
+            </relation>
+            <relation>
+                <targetEntity targetType="resource" valueURI="Example EAD3(Swedish process).xml">
+                    <part>The Fictional Testing Center records</part>
+                </targetEntity>
+                <relationType valueURI="https://www.ica.org/standards/RiC/ontology#resultsOrResultedIn"></relationType>
+            </relation>
+            <relation>
+                <targetEntity targetType="resource" valueURI="Example%20EAD2002.xml">
+                    <part>The Fictional Testing Center old records description</part>
+                </targetEntity>
+                <relationType valueURI="https://www.ica.org/standards/RiC/ontology#resultsOrResultedIn"></relationType>
+            </relation>
+        </relations>
+    </cpfDescription>
+</eac>
+

@@ -1,1 +1,1 @@
-The presentation used is found here: 
+The presentation used is found here:[https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/2024/SAA24/B5%20A%20Morning%20with%20the%20Technical%20Subcommittee%20on%20Encoded%20Archival%20Standards%20(TS%20EAS)%20-%20Updates%20and%20Insights.pdf](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/TS-EAS-Notes/2024/SAA24/B5%20A%20Morning%20with%20the%20Technical%20Subcommittee%20on%20Encoded%20Archival%20Standards%20(TS%20EAS)%20-%20Updates%20and%20Insights.pdf)

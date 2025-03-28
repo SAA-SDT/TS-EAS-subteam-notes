@@ -1,6 +1,12 @@
-This folder will be providing access to various documents in relation to the major revision of EAD. During the two calls for comments (one in spring through mid-summer 2024 and one in late autumn/early winter 2024), more documents will be added here or linked form here step by step. 
+This folder will be providing access to various documents in relation to the major revision of EAD. During the two calls for comments (one in spring through mid-summer 2024 and one in spring 2025), more documents will be added here or linked form here step by step. 
 
+**Documents for both call for comments**
 - The [Infograph](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/Infograph.pdf) highlights the benefits of EAD 4.0 at a glance.
+
+**Documents for the 2nd call for comments in spring 2025**
+- (to be added)
+
+**Documents for the 1st call for comments in spring through mid-summer 2024**
 - The [Editorial](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/Editorial_ChangesInEAD4.0.pdf) discusses the main strands of changes that can be found in EAD 4.0 compared to the predecessor version EAD3. It includes examples and links to GitHub issues for more details, but doesn't cover each and every dot of the draft for the new version.
 - The draft version of the [EAD 4.0 Revision Notes](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/RevisionNotesEAD3toEAD4.0.pdf)) details the changes suggested in EAD 4.0 in comparison to the predecessor version EAD3 in textual form. This includes some general statistics about these changes and groups elements and attributes affected by the same type of change. 
 - The draft version of the [EAD 4.0 schema](https://github.com/SAA-SDT/eas-schemas/releases/tag/v0.1.0-alpha) provides a technical entry point into the new version, which can be read as information in itself, but can also be used e.g. in trying to adapt existing EAD 2002 or EAD3 files to the new version.
@@ -13,14 +19,14 @@ This folder will be providing access to various documents in relation to the maj
   - The ead4-starter-file.xml can be used as a basis when you want to get to know EAD 4.0 by creating a file from scratch. It has been pre-associated with both the draft schema and schematron.
   - The file APE_BL_EAD2002exampleAdapted.xml has been adapted manually from EAD 2002 using the Oxygen XML editor. The EAD 2002 XML file used was provided to Archives Portal Europe in September 2019 and follows the EAD 2002 application profile as defined for the portal, see https://www.archivesportaleurope.net/schemas/ead/apeEAD.xsd
   - The file LoC_EAD3exampleAdapted.xml has been adapted manually from EAD3 using the Oxygen XML editor. The EAD3 file used was downloaded from the Library of Congress' catalogue on 24 January 2024.
-
-Throughout the Call for Comments phase, we will hold several open drop-in sessions to present various aspects of the revision and the new version of EAD and to allow the community to ask questions, e.g. in preparation to submitting comments. The slide decks used during these sessions are also added to this folder here:
-
-- [1st Open Session](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/20240424_EAD4CallForComments_Session1.pdf) on 24 April 2024, 10am UTC and 4pm UTC (both iterations with the same content)
-
-Furthermore, we are running a 5-piece series together with the colleagues of the SAA Description Section on their blog "Descriptive Notes". Follow along for a more general introduction into the main aspects of this current revision.
-
-- [1st blog post](https://saadescription.wordpress.com/2024/03/05/shape-the-future-of-ead-a-call-to-action-part-i/) from 5 March 2024 about the why and how of the revision
-- [2nd blog post](https://saadescription.wordpress.com/2024/04/22/shape-the-future-of-ead-a-call-to-action-part-ii/) from 22 April 2024 focussing on the alignment between EAD and its sibling standard EAC-CPF
-
-If you found a bug in the current draft or want to suggest further features to be added, have a look at this [overview of issues that have been submitted already](https://github.com/SAA-SDT/eas-schemas/milestone/5) to see if someone else had the same comment. You can either add further comments to an existing issue of this list or create a new issue via the "New issue" button on that page.    
+- Throughout the 1st Call for Comments phase, we held several open drop-in sessions to present various aspects of the revision and the new version of EAD and to allow the community to ask questions, e.g. in preparation to submitting comments. The slide decks used during these sessions are also added to this folder here:
+  - [1st Open Session](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/20240424_EAD4CallForComments_Session1.pdf) on 24 April 2024, 10am UTC and 4pm UTC (both iterations with the same content)
+  - [2nd Open Session](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/20240522_EAD4CallForComments_Session2.pdf) on 22 May 2024
+  - [3rd Open Session](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/20240618_EAD4CallForComments_Session3.pdf) on 18 June 2024
+  - [4th Open Session](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/20240709_EAD4CallForComments_Session4.pdf) on 9 July 2024
+  - [Recordings of all sessions on SAA's YouTube channel](https://www.youtube.com/c/SocietyofAmericanArchivists/videos)
+- Furthermore, we were running a blog series together with the colleagues of the SAA Description Section on their blog "Descriptive Notes". Follow along for a more general introduction into the main aspects of this current revision.
+  - [1st blog post](https://saadescription.wordpress.com/2024/03/05/shape-the-future-of-ead-a-call-to-action-part-i/) from 5 March 2024 about the why and how of the revision
+  - [2nd blog post](https://saadescription.wordpress.com/2024/04/22/shape-the-future-of-ead-a-call-to-action-part-ii/) from 22 April 2024 focussing on the alignment between EAD and its sibling standard EAC-CPF
+  - [3rd blog post](https://saadescription.wordpress.com/2024/06/11/shape-the-future-of-ead-a-call-to-action-part-iii) from 11 June 2024 on relationship encoding in archival description
+  - [4th blog post](https://saadescription.wordpress.com/2024/08/12/shape-the-future-of-ead-a-call-to-action-part-iv/) from 12 August 2024 on the extensibility of EAD 4.0

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eas-schemas/release_2024_03/xml-schemas/ead/ead.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eas-schematrons/release_2024_03/schematron/ead.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="https://archivists.org/ns/ead/v4" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <control coverageEncoding="EASList" languageEncoding="iso639-2" levelEncoding="EASList" 
+        maintenanceEventTypeEncoding="EASList" maintenanceStatusEncoding="EASList"
+        physDescStructuredTypeEncoding="EASList" maintenanceStatus="new">
+        <recordId>fake-record-identifier</recordId>
+        <maintenanceAgency>
+            <agencyCode>EUZ-x123</agencyCode>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent maintenanceEventType="created">
+                <agent>
+                    <agentName>X</agentName>
+                    <agentType>secret</agentType>
+                </agent>
+                <eventDateTime standardDateTime="2023-12-15"/>
+            </maintenanceEvent>
+        </maintenanceHistory>
+    </control>
+    <archDesc>
+        <identificationData>
+            <unitTitle></unitTitle>
+        </identificationData>
+    </archDesc>
+</ead>

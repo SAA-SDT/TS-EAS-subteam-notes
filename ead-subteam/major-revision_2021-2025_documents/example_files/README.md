@@ -1,1 +1,1 @@
-
+This folder includes example files in EAD 4.0, which were created manually as part of the revision process. The is a subfolder containing examples files used in the first call for comments in Spring 2024 and one with updated versions of these example files as well as additional example files used in the final call for comments in Spring 2025.

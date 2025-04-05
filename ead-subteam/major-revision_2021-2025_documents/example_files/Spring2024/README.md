@@ -1,0 +1,3 @@
+The ead4-starter-file.xml can be used as a basis when you want to get to know EAD 4.0 by creating a file from scratch. It has been pre-associated with both the draft schema and schematron.
+The file APE_BL_EAD2002exampleAdapted.xml has been adapted manually from EAD 2002 using the Oxygen XML editor. The EAD 2002 XML file used was provided to Archives Portal Europe in September 2019 and follows the EAD 2002 application profile as defined for the portal, see https://www.archivesportaleurope.net/schemas/ead/apeEAD.xsd
+The file LoC_EAD3exampleAdapted.xml has been adapted manually from EAD3 using the Oxygen XML editor. The EAD3 file used was downloaded from the Library of Congress' catalogue on 24 January 2024.

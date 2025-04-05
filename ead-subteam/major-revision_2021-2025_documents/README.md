@@ -4,7 +4,16 @@ This folder will be providing access to various documents in relation to the maj
 - The [Infograph](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/Infograph.pdf) highlights the benefits of EAD 4.0 at a glance.
 
 **Documents for the 2nd call for comments in spring 2025**
-- (to be added)
+- The New Changes Editorial (*Link to be added*) summarises the changes between draft 0.1 as published in Spring 2024 and the current draft 0.2. These changes result from the comments received from the community.
+- The [Overview of Feedback Received](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/FeedbackReceived_1stCallForComments_EAD4.0.pdf) lists all the input received during the first call for comments, categorises the feedback (e.g. whether it is a bug or feature or refers to an element or attribute), links to the GitHub issue addressing the feedback and gives information about when TS-EAS discussed the issue and with which outcome.
+- The second draft version of the EAD 4.0 schema (*Link to be added*) provides a technical entry point into the new version, which can be read as information in itself, but can also be used e.g. in trying to adapt existing EAD 2002 or EAD3 files to the new version.
+  - The official transformation script to convert to EAD 4.0 is in preparation, but e.g. manual adaptation in an XML editor is possible when associating existing files with the draft schema.
+  - The draft schema is available in three formats: XSD, RNG (included in the source code packages linked from the pre-release page above), and NVDL (which allows for an integrated testing and joint validation of the XHTML embedding options in EAD 4.0).
+  - The package also includes a draft schematron for EAD 4.0 for specific validation scenarios, e.g. against the ISO standard 8601 for dates if used for normalised dates in your EAD files.
+- The Tag Library for EAD 4.0 draft 0.2 (*Link to be added*) describes what the schema defines in a human readable form.
+- Updated and additional [Example files](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/ead-subteam/major-revision_2021-2025_documents/example_files/Spring2025) are meant to illustrate the new version of EAD and the encoding options it provides. 
+
+---
 
 **Documents for the 1st call for comments in spring through mid-summer 2024**
 - The [Editorial](https://github.com/SAA-SDT/TS-EAS-subteam-notes/blob/master/ead-subteam/major-revision_2021-2025_documents/Editorial_ChangesInEAD4.0.pdf) discusses the main strands of changes that can be found in EAD 4.0 compared to the predecessor version EAD3. It includes examples and links to GitHub issues for more details, but doesn't cover each and every dot of the draft for the new version.

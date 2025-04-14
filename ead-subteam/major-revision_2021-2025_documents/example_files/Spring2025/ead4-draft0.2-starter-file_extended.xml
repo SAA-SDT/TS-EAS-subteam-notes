@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eas-schematrons/refs/heads/release_2025_03/schematron/ead.sch" 
+    type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://archivists.org/ns/ead/v4 https://raw.githubusercontent.com/SAA-SDT/eas-schemas/refs/heads/release_2025_03/xml-schemas/ead/ead-4-dev.xsd"
+    xmlns="https://archivists.org/ns/ead/v4" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mods="http://www.loc.gov/mods/v3">
+    <!-- The encoding attributes in control are used to indicate the value lists available in other attributes within mostly the descriptive part of 
+         the EAD instance; some of these encoding attributes piont to ISO standards, some to value lists defined and managed by TS-EAS; all of them 
+         allow to indicate an other list being used; generally, all of these attributes are optional, but if one of the attributes that would use 
+         these encoding lists is applied in the EAD instance, it is expected that that attribute's value is taken from a predefined list and that this 
+         list is defined within control with the relevant encoding attribute; if another encoding approach is chosen than the EAS lists or ISO standards, 
+         those lists should be provided in conventionDeclaration and its sub-elements -->
+    <control audienceEncoding="EASList" audience="external" maintenanceEventTypeEncoding="EASList" agentTypeEncoding="EASList" dateEncoding="iso8601"
+        languageEncoding="iso639-2" scriptEncoding="iso15924" levelEncoding="EASList" coverageEncoding="EASList" placeTypeEncoding="otherPlaceTypeEncoding" 
+        addressLineTypeEncoding="EASList" contactLineTypeEncoding="EASList">
+        <!-- recordId includes a sample identifier for the EAD instance; this can be any alpha-numeric code, but the element cannot be left empty -->
+        <recordId>1234</recordId>
+        <!-- maintenanceAgency has to either include the sub-element agencyName or agencyCode; whichever sub-element is used, if it's used on its own 
+             it cannot be left empty; if both sub-elements are used, agenyCode is expected before agencyName -->
+        <maintenanceAgency>
+            <agencyCode>US-SAA_TS-EAS</agencyCode>
+            <agencyName>TS-EAS</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent id="mE1" maintenanceEventType="created">
+                <agent agentType="group">
+                    <label>TS-EAS</label>
+                </agent>
+                <eventDateTime standardDateTime="2025-04-14">14 April 2025</eventDateTime>
+                <eventDescription>This file has been created as part of the final call for comments on EAD 4.0.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <languageDeclaration languageCode="eng" scriptCode="Latn"/>
+        <conventionDeclaration id="cD1">
+            <reference href="Link">List of place types, ideally including a link to where this list is available online</reference>
+        </conventionDeclaration>
+    </control>
+    <!-- The elements used within archDesc below are only examples to illustrate some of the encoding options available; they often include 
+         sample texts which should not be considered as official examples illustrating the actual descriptive content encoded in EAD; such 
+         real world examples will be shared via other routes -->
+    <archDesc level="fonds">
+        <identificationData>
+            <unitId>Identifier of the fonds</unitId>
+            <unitTitle>Title of the fonds, e.g. Correspondence between Person A and Person B</unitTitle>
+            <unitDate>
+                <textualDate>Date of creation of the fonds</textualDate>
+            </unitDate>
+            <unitDate>
+                <date standardDate="2020~/2025~"/>
+            </unitDate>
+        </identificationData>
+        <agents>
+            <agent agentType="person">
+                <label>Name of the records creator, here: Person A</label>
+                <role valueURI="rcp" vocabularySource="MARC Code List for Relators" 
+                    vocabularySourceURI="https://www.loc.gov/marc/relators/relaterm.html">Addressee</role>
+                <relationship>Creation</relationship>
+            </agent>
+            <agent agentType="person">
+                <label>Name of the records creator, here: Person B</label>
+                <role valueURI="crp" vocabularySource="MARC Code List for Relators" 
+                    vocabularySourceURI="https://www.loc.gov/marc/relators/relaterm.html">Correspondent</role>
+                <relationship>Creation</relationship>
+            </agent>
+            <agent agentType="corporateBody">
+                <label>Name of the holding institution</label>
+                <role valueURI="rps" vocabularySource="MARC Code List for Relators" 
+                    vocabularySourceURI="https://www.loc.gov/marc/relators/relaterm.html">Repository</role>
+                <relationship>Archiving</relationship>
+            </agent>
+        </agents>
+        <formsAvailable>
+            <formAvailable coverage="part">
+                <label>Digitizations</label>
+                <descriptiveNote>
+                    <p>The materials in this fonds have been partially digitized. More information can be found with the descriptions of the individual records.</p>
+                </descriptiveNote>
+            </formAvailable>
+            <formAvailable coverage="whole">
+                <label>Microfiche</label>
+                <descriptiveNote>
+                    <p>The complete fonds is available on microfiche, which can be accessed and read in our reading room using specifically equipped work stations.</p>
+                </descriptiveNote>
+            </formAvailable>
+            <formAvailable coverage="part">
+                <label>Copies</label>
+                <descriptiveNote>
+                    <p>Copies of the letters sent by Person A can also be found in the collection of their private papers, AB2345.</p>
+                </descriptiveNote>
+            </formAvailable>
+        </formsAvailable>
+        <places>
+            <place placeType="repositoryLocation">
+                <label>Name of the place or location</label>
+                <address>
+                    <addressLine addressLineType="municipality">Name of the town, city, etc.</addressLine>
+                    <addressLine addressLineType="postalCode">Postal code</addressLine>
+                    <addressLine addressLineType="street">Street name and number</addressLine>
+                </address>
+                <contact>
+                    <contactLine contactLineType="phoneNumber">Phone number</contactLine>
+                    <contactLine contactLineType="email">Email address</contactLine>
+                </contact>
+            </place>
+            <place placeType="storageLocation">
+                <label>Shelf 27:A:4</label>
+            </place>
+        </places>
+        <accessConditions>
+            <dateRange>
+                <fromDate>April 2025</fromDate>
+            </dateRange>
+            <p>Some narrative text with details about accessing the materials described.</p>
+        </accessConditions>
+        <processInfo>
+            <provenanceEvent>
+                <eventDateTime>2020</eventDateTime>
+                <eventDescription>TS-EAS submitted EAD for revision to SAA's Standards Committee.</eventDescription>
+            </provenanceEvent>
+            <provenanceEvent>
+                <eventDateTime>2021</eventDateTime>
+                <eventDescription>The major revision of EAD started with various activities to better understand the state of play of EAD usage.</eventDescription>
+            </provenanceEvent>
+            <provenanceEvent>
+                <eventDateTime>2022</eventDateTime>
+                <eventDescription>With preparing the major revision of EAC-CPF alongside the major revision of EAD, discussions concentrated 
+                    on alignment between both standards.</eventDescription>
+            </provenanceEvent>
+            <provenanceEvent>
+                <eventDateTime>2023</eventDateTime>
+                <eventDescription>Focus shifted to reviewing EAD-specific elements and attributes.</eventDescription>
+            </provenanceEvent>
+            <provenanceEvent>
+                <eventDateTime>January and February 2024</eventDateTime>
+                <eventDescription>Draft 0.1 of EAD 4.0 was presented and discussed with potential multipliers such as software providers and aggregators.</eventDescription>
+            </provenanceEvent>
+            <provenanceEvent>
+                <eventDateTime>April 2024</eventDateTime>
+                <eventDescription>Draft 0.1 of EAD 4.0 was shared for comments from the wider community.</eventDescription>
+            </provenanceEvent>
+            <provenanceEvent>
+                <eventDateTime>May 2024 to February 2025</eventDateTime>
+                <eventDescription>Comments were gathered and discussed with further changes being decided based on the feedback received.</eventDescription>
+            </provenanceEvent>
+        </processInfo>
+        <relatedMaterial>
+            <relations>
+                <relation>
+                    <label valueURI="Link">Title of a related collection that is available online</label>
+                </relation>
+                <relation>
+                    <label>Title of a related collection that is only available in analogue form</label>
+                </relation>
+            </relations>
+            <p>Some narrative text about the related collections.</p>
+        </relatedMaterial>
+        <scopeContent>
+            <formattingExtension>
+                <xhtml:h1>First-level heading</xhtml:h1>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+                <xhtml:h2>Second-level heading</xhtml:h2>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+                <xhtml:ul>
+                    <xhtml:li>First list item</xhtml:li>
+                    <xhtml:li>Second list item</xhtml:li> 
+                    <xhtml:ul>
+                        <xhtml:li>First second-level list item</xhtml:li> 
+                        <xhtml:li>Second second-level list item</xhtml:li> 
+                        <xhtml:li>Third second-level list item</xhtml:li> 
+                    </xhtml:ul>
+                    <xhtml:li>Third list item</xhtml:li> 
+                    <xhtml:li>Fourth list item</xhtml:li> 
+                    <xhtml:ul>
+                        <xhtml:li>First second-level list item</xhtml:li>
+                        <xhtml:ul>
+                            <xhtml:li>First third-level list item</xhtml:li> 
+                            <xhtml:li>Second third-level list item</xhtml:li> 
+                        </xhtml:ul>
+                        <xhtml:li>Second second-level list item</xhtml:li> 
+                        <xhtml:ul>
+                            <xhtml:li>First third-level list item</xhtml:li> 
+                            <xhtml:li>Second third-level list item</xhtml:li> 
+                        </xhtml:ul>
+                        <xhtml:li>Third second-level list item</xhtml:li> 
+                        <xhtml:ul>
+                            <xhtml:li>First third-level list item</xhtml:li> 
+                            <xhtml:li>Second third-level list item</xhtml:li> 
+                        </xhtml:ul>
+                    </xhtml:ul>
+                </xhtml:ul>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+                <xhtml:h2>Second-level heading</xhtml:h2>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+                <xhtml:table>
+                    <xhtml:tr>
+                        <xhtml:th>Header 1</xhtml:th>
+                        <xhtml:th>Header 2</xhtml:th>
+                        <xhtml:th>Header 3</xhtml:th>
+                    </xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td>Table entry 1 under header 1</xhtml:td>
+                        <xhtml:td>Table entry 1 under header 2</xhtml:td>
+                        <xhtml:td>Table entry 1 under header 3</xhtml:td>
+                    </xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td>Table entry 2 under header 1</xhtml:td>
+                        <xhtml:td>Table entry 2 under header 2</xhtml:td>
+                        <xhtml:td>Table entry 2 under header 3</xhtml:td>
+                    </xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td>Table entry 3 under header 1</xhtml:td>
+                        <xhtml:td>Table entry 3 under header 2</xhtml:td>
+                        <xhtml:td>Table entry 3 under header 3</xhtml:td>
+                    </xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td>Table entry 4 under header 1</xhtml:td>
+                        <xhtml:td>Table entry 4 under header 2</xhtml:td>
+                        <xhtml:td>Table entry 4 under header 3</xhtml:td>
+                    </xhtml:tr>
+                </xhtml:table>
+                <xhtml:h2>Second-level heading</xhtml:h2>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+                <xhtml:h3>Third-level heading</xhtml:h3>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+                <xhtml:ol>
+                    <xhtml:li>First ordered list item</xhtml:li>
+                    <xhtml:li>Second ordered list item</xhtml:li> 
+                    <xhtml:li>Third ordered list item</xhtml:li> 
+                </xhtml:ol>
+                <xhtml:h3>Third-level heading</xhtml:h3>
+                <xhtml:ol>
+                    <xhtml:li>First ordered list item</xhtml:li>
+                    <xhtml:li>Second ordered list item</xhtml:li> 
+                    <xhtml:li>Third ordered list item</xhtml:li> 
+                </xhtml:ol>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+                <xhtml:h2>Second-level heading</xhtml:h2>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+                <xhtml:p>Paragraph with some narrative text.</xhtml:p>
+            </formattingExtension>
+        </scopeContent>
+        <useConditions>
+            <p>Some narrative text about usage conditions.</p>
+        </useConditions>
+        <!-- descriptionOfComponents and the components elements below have only been added as an empty skeleton adaptable as appropriate for further testing; 
+             as with previous versions of EAD, one can either use unnumbered or numbered component elements and all sub-elements available with archDesc are 
+             available with the component elements as well -->
+        <descriptionOfComponents>
+            <c>
+                <identificationData>
+                    <unitTitle></unitTitle>
+                </identificationData>
+                <c>
+                    <identificationData>
+                        <unitTitle></unitTitle>
+                    </identificationData>
+                </c>
+                <c>
+                    <identificationData>
+                        <unitTitle></unitTitle>
+                    </identificationData>
+                </c>
+            </c>
+            <c>
+                <identificationData>
+                    <unitTitle></unitTitle>
+                </identificationData>
+                <c>
+                    <identificationData>
+                        <unitTitle></unitTitle>
+                    </identificationData>
+                </c>
+            </c>
+            <c>
+                <identificationData>
+                    <unitTitle></unitTitle>
+                </identificationData>
+                <c>
+                    <identificationData>
+                        <unitTitle></unitTitle>
+                    </identificationData>
+                    <c>
+                        <identificationData>
+                            <unitTitle></unitTitle>
+                        </identificationData>
+                    </c>
+                    <c>
+                        <identificationData>
+                            <unitTitle></unitTitle>
+                        </identificationData>
+                    </c>
+                </c>
+                <c>
+                    <identificationData>
+                        <unitTitle></unitTitle>
+                    </identificationData>
+                </c>
+                <c>
+                    <identificationData>
+                        <unitTitle></unitTitle>
+                    </identificationData>
+                </c>
+            </c>
+        </descriptionOfComponents>
+    </archDesc>
+</ead>

@@ -14,7 +14,7 @@ This folder will be providing access to various documents in relation to the maj
 - The Tag Library for EAD 4.0 draft 0.2 (*Link to be added*) describes what the schema defines in a human readable form.
 - Updated and additional [Example files](https://github.com/SAA-SDT/TS-EAS-subteam-notes/tree/master/ead-subteam/major-revision_2021-2025_documents/example_files/Spring2025) are meant to illustrate the new version of EAD and the encoding options it provides.
   - The ead4-draft0.2-starter-file_simple.xml only includes the mandatory elements to form a valid EAD 4.0 file (and, apart from the schema location etc. attributes in `<ead>` itself, no attributes); it has been pre-associated with both the draft schema and schematron. 
-- The ead4-draft0.2-starter-file_extended.xml includes some more elements in `<control>` and in `<archDesc>` as well as a skeleton structure with `<descriptionOfComponents>` and unnumbered `<c>` elements; this version also includes some attributes for illustration; same as the previous starter file, this file has been pre-associated with both the draft schema and schematron.
+  - The ead4-draft0.2-starter-file_extended.xml includes some more elements in `<control>` and in `<archDesc>` as well as a skeleton structure with `<descriptionOfComponents>` and unnumbered `<c>` elements; this version also includes some attributes for illustration; same as the previous starter file, this file has been pre-associated with both the draft schema and schematron.
 
 ---
 

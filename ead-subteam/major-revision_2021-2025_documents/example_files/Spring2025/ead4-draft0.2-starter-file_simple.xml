@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eas-schematrons/refs/heads/release_2025_03/schematron/ead.sch" 
+    type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://archivists.org/ns/ead/v4 https://raw.githubusercontent.com/SAA-SDT/eas-schemas/refs/heads/release_2025_03/xml-schemas/ead/ead-4-dev.xsd"
+ xmlns="https://archivists.org/ns/ead/v4" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mods="http://www.loc.gov/mods/v3">
+    <control>
+        <!-- recordId includes a sample identifier for the EAD instance; this can be any alpha-numeric code, but the element cannot be left empty -->
+        <recordId>1234</recordId>
+        <!-- maintenanceAgency has to either include the sub-element agencyName or agencyCode; whichever sub-element is used, if it's used on its own 
+             it cannot be left empty; if both sub-elements are used, agenyCode is expected before agencyName -->
+        <maintenanceAgency>
+            <agencyName>TS-EAS</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <agent>
+                    <label>TS-EAS</label>
+                </agent>
+                <eventDateTime>14 April 2025</eventDateTime>
+            </maintenanceEvent>
+        </maintenanceHistory>
+    </control>
+    <archDesc>
+        <identificationData>
+            <unitTitle></unitTitle>
+        </identificationData>
+    </archDesc>
+</ead>
